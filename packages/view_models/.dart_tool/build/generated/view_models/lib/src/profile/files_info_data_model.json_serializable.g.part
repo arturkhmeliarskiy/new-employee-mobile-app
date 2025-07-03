@@ -1,0 +1,39 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_FilesInfoDataModel _$$_FilesInfoDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_FilesInfoDataModel(
+      id: json['id'] as String,
+      name: json['name'] as String,
+      type: json['type'] as String,
+      path: json['path'] as String,
+      isShared: json['isShared'] as bool,
+      expirationDate: json['expirationDate'] as String,
+      typeDocument: json['typeDocument'] as String,
+      createdAt: json['createdAt'] as String,
+      size: json['size'] as String,
+      employeeId: json['employeeId'] as String,
+      parentCloudFileId: json['parentCloudFileId'] as String,
+      sharedAgencys: (json['sharedAgencys'] as List<dynamic>)
+          .map((e) => e as String)
+          .toList(),
+    );
+
+Map<String, dynamic> _$$_FilesInfoDataModelToJson(
+        _$_FilesInfoDataModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+      'type': instance.type,
+      'path': instance.path,
+      'isShared': instance.isShared,
+      'expirationDate': instance.expirationDate,
+      'typeDocument': instance.typeDocument,
+      'createdAt': instance.createdAt,
+      'size': instance.size,
+      'employeeId': instance.employeeId,
+      'parentCloudFileId': instance.parentCloudFileId,
+      'sharedAgencys': instance.sharedAgencys,
+    };

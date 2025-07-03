@@ -1,0 +1,361 @@
+{
+  "language": "Limba",
+  "login_screen": {
+    "password_textfield_hint": "Parola",
+    "forgot_password_button": "Aţi uitat parola?",
+    "missing_credentails": "Lipsesc credentails",
+    "username_textfield_hint": "Nume de utilizator",
+    "bottom_button": "Autentificare"
+  },
+  "pin_code_screen": {
+    "fail_pin_code": "Cod PIN nevalid",
+    "forgot_pin": "Ai uitat pinul?",
+    "pin_code_disabled": "Codul PIN dezactivat"
+  },
+  "home_screen": {
+    "title_exit_app": "Ieșiți din aplicație",
+    "question_log_out_of_the_app": "Doriți să ieșiți dintr-o aplicație?",
+    "exit_app_dialog_ok": "Ok",
+    "hello": "Bună ziua",
+    "block_header1": "Prezentare generală",
+    "hours_worked": "Ore lucrate",
+    "accrued_holiday_pay": "Plata concediilor acumulate",
+    "accrued_holiday_hours": "Ore de concediu acumulate",
+    "my_agencies": "Agențiile mele",
+    "total": "total",
+    "month": "lună",
+    "looking_for_a_job": "Cauti un loc de munca?",
+    "button_yes": "Da",
+    "button_show_more": "Afișați mai multe"
+  },
+  "week": "săptămână",
+  "news": "Știri",
+  "no_news": "Nici o veste",
+  "default": "implicit",
+  "no_documents_available": "Nu există documente disponibile",
+  "agency_related_info_screen": {
+    "days_until_payout": "Zile până la plată",
+    "average_worked_hours": "Media orelor lucrate",
+    "my_employers": "Angajatorii mei",
+    "no_employers": "Fără angajatori",
+    "no_documents": "Fără documente",
+    "not_specified": "Nu este specificat"
+  },
+  "agency_contact_modal_window": {
+    "chat": "Conversație",
+    "or": "sau"
+  },
+  "chat_screen": {
+    "error_message_was_not_sent": "Eroare. Mesajul nu a fost trimis"
+  },
+  "info_modal_window": {
+    "your_contact": "Persoana de contact",
+    "custom_text_field": "Disponibil de la 6-8 zilnic"
+  },
+  "hours": "Ore",
+  "costs": "Costă",
+  "submitted_timesheet_screen": {
+    "function": "Funcționa",
+    "week_nr": "Săptămâna nr.",
+    "start_date": "Data de începere",
+    "end_date": "Data de încheiere",
+    "question_confirm": "Confirmați comentariul?",
+    "confirm": "Confirma",
+    "question_decline": "De ce doriți să refuzați această foaie de pontaj?",
+    "reason_for_refusal": "Vă rugăm să indicați motivul respingerii",
+    "decline": "Declin",
+    "no_timesheets": "Fără foi de pontaj"
+  },
+  "regestration_hours_selection": {
+    "standart_hours": "Ore de standart",
+    "from_to_hours": "De la ore la ore"
+  },
+  "registration_timesheets_screen": {
+    "via": "drum",
+    "select_week": "Selectați săptămâna",
+    "hour_type_not_selected": "Tipul orei nu a fost selectat",
+    "add_registration": "Adăugarea înregistrării ",
+    "approve": "Aproba",
+    "total_hours": "Numărul total de ore",
+    "total_costs": "Costuri totale",
+    "reject": "Respinge",
+    "send": "Expedia",
+    "project_not_selected": "Proiectul nu a fost selectat",
+    "message_info1": "Suma tuturor orelor pentru o zi, trebuie să fie mai mică sau egală cu ",
+    "message_info2": "Suma tuturor orelor pentru săptămână, trebuie să fie mai mică sau egală cu ",
+    "message_info3": "Orele nu pot fi înregistrate. Contactați agenția",
+    "message_info4": "Valoarea nu poate fi mai mare decât",
+    "message_info5": "Valoarea nu poate fi mai mică decât",
+    "message_info6": "Costul total nu poate fi mai mare decât",
+    "message_info7": "Costul total nu poate fi mai mic decât",
+    "message_info8": "Numărul total de unități nu poate fi mai mare decât",
+    "message_info9": "Numărul total de unități nu poate fi mai mic de",
+    "message_info10_1": "Permis nu mai mult de",
+    "message_info10_2": "cheltuieli pe săptămână",
+    "posting_period": "Foaia de pontaj poate fi creată numai în perioada respectivă",
+    "tariff_is_not_valid": "tariful nu este valabil în această perioadă de timp",
+    "message_info11": "Numărul de ore la această rată pe zi trebuie să fie mai mic sau egal cu",
+    "successfully_saved": "Foaie de pontaj salvată cu succes",
+    "error_saved": "Eroare de salvare a foii de pontaj",
+    "project_required": "Proiect necesar",
+    "message_required_hours": "Nu ați finalizat toate orele necesare",
+    "empty_hours": "completați câmpurile pentru numărul de ore",
+    "key2ValuesMap_VDw": "Sărbători legale",
+    "key2ValuesMap_VDb": "Deasupra sărbătorilor legale",
+    "key2ValuesMap_VDt": "Total sărbători",
+    "key2ValuesMap_FD": "Sărbătorile",
+    "key2ValuesMap_KV": "Absență scurtă",
+    "key2ValuesMap_ADV": "Program de lucru mai scurt",
+    "key2ValuesMap_TvT": "Horas de compensação",
+    "key2ValuesMap_VG": "Indemnizația de vacanță",
+    "key2ValuesMap_WDC": "WDC",
+    "message_info12": "WML nu se completează la datele următoare",
+    "message_info13": "Tariful orar nu se completează la datele următoare",
+    "message_info14": "Tarif orar mai puțin permis wml la datele următoare",
+    "message_info15": "Rezolvați aceste probleme, veți putea aproba această foaie de pontaj",
+    "message_info16": "Pentru angajatul actual nu a completat data zilei de naștere. WML nu poate fi calculat",
+    "message_info17": "Nu poți completa orele pentru această săptămână. Vă rugăm să contactați",
+    "message_info18": "Alege tariful",
+    "message_info19": "Alegeți un tarif și adăugați numărul dorit de ore",
+    "message_info20": "Rata de cost nu a fost selectată",
+    "message_info21": "Ora de început nu poate fi mai mare de sfârșit",
+    "message_info22": "Timpul este deja folosit",
+    "message_info23": "Ziua lucrătoare este de la {1} la {2}. Pauză trebuie să se încadreze în aceste perioade.",
+    "is_not_select_type_reserv": "Tipul rezervării nu a fost selectat"
+  },
+  "card_timesheet_reservation": {
+    "reservation": "Rezervare",
+    "available": "Disponibil",
+    "available_balance": "Soldul disponibil"
+  },
+  "monday": "Luni",
+  "tuesday": "Marți",
+  "wednesday": "Miercuri",
+  "thursday": "Joi",
+  "friday": "Vineri",
+  "saturday": "Sâmbătă",
+  "sunday": "Duminică",
+  "sheet_modal_window": {
+    "view_add_sheets": "Vedere/Adăugarea foilor",
+    "select_employer": "Selectați angajatorul"
+  },
+  "types_registration": {
+    "new_registration": "Înregistrare nouă",
+    "ritten": "Plimbari",
+    "expenses": "Cheltuielile",
+    "reservations": "Rezervări"
+  },
+  "show_contact_information": "Afișarea informațiilor de contact",
+  "payslips_screen": {
+    "message_null_payslips": "Nu există încă rapoarte anuale disponibile",
+    "period": "Perioadă",
+    "item_drop_down_pay_slips": "Fluturași de plată",
+    "item_drop_down_annual_statements": "Declarații anuale"
+  },
+  "profile_screen": {
+    "notifications": "Notificări",
+    "name_page": "Profil",
+    "hours_approved": "Horas aprovadas",
+    "message_empty_list": "Fără mesaje",
+    "notification_dialog_cancel": "Anulare",
+    "notification_dialog_ok": "Bine",
+    "new_chat_messages": "Mesaje noi de chat"
+  },
+  "language_modal_window": {
+    "lang_name1": "Engleză",
+    "lang_name6": "Română",
+    "lang_name5": "Portugheză",
+    "lang_name4": "Olandeză",
+    "lang_name3": "Lustrui",
+    "lang_name2": "Germana",
+    "message_successfully_saved": "Salvat cu succes"
+  },
+  "back_button_name": "Înapoi",
+  "settings_modal_window": {
+    "name_page": "Setări",
+    "profile": "Profil",
+    "basic_information": "Informatii de baza",
+    "work_preferences": "Preferințe de lucru",
+    "security": "Securitate",
+    "my_documents": "Documentele mele",
+    "agency_documents": "Documentele agenției",
+    "preferences": "Preferinţe",
+    "logout": "Deconectare",
+    "ask_for_confirmation": "Vrei să te deconectezi?",
+    "title_agency_documents": "Partajarea documentelor cu dvs."
+  },
+  "documents": "Documente",
+  "language_name": "Romanian",
+  "basic_information_modal_window": {
+    "message_successfully_saved": "Salvat cu succes",
+    "basic_information": "Informatii de baza",
+    "change_picture": "Modificare imagine",
+    "telephone_number": "Număr telefonic",
+    "profile": {
+      "profile_title": "Profil",
+      "hint_nick_name": "Numele nick-ului",
+      "hint_date_of_birth": "Data naşterii",
+      "hint_nationality": "Naționalitate",
+      "hint_first_name": "Prenume",
+      "hint_last_name": "Nume de familie"
+    }
+  },
+  "button_cancel": "Anulare",
+  "button_save": "Salva",
+  "work_preferences_modal_window": {
+    "message_successfully_saved": "Salvat cu succes",
+    "name_page": "Pereferenții de lucru",
+    "hint_desired_salary": "Salariul dorit",
+    "hint_desired_function": "Funcția dorită",
+    "hint_max_travel_time_minutes": "Timp maxim de călătorie minute"
+  },
+  "security_modal_window": {
+    "change_pin_code": "Modificarea codului PIN",
+    "change_password": "Schimbați parola"
+  },
+  "pin_code_modal_window": {
+    "name_page": "Codul PIN",
+    "create_pincode": "Creați codul PIN",
+    "switch_pin_code": "Comutarea codului Pin",
+    "registration_pin_code_screen": {
+      "title": "Doriți să vă conectați cu pin?",
+      "skip": "Sări peste"
+    }
+  },
+  "password_modal_window": {
+    "message_successfully_saved": "Salvat cu succes",
+    "hint_old_password": "Parolă veche",
+    "hint_new_password": "Parolă nouă",
+    "hint_confirm_password": "Confirmați parola"
+  },
+  "my_documents_modal_window": {
+    "message_successfully_saved": "Salvat cu succes",
+    "my_cv": "CV-ul meu",
+    "no_my_cv": "Nici un CV încărcat",
+    "my_personal_documents": "Documentele mele personale",
+    "no_my_personal_documents": "Fără documente personale",
+    "sharing_with_the_agency": "Partajarea cu agenția",
+    "add_document": "Adăugarea documentului ",
+    "title_validity": "Validitate",
+    "title_document_type": "Tipul documentului",
+    "hint_input_date": "Selectați o dată de expirare",
+    "hint_type_document": "Selectarea tipului de document",
+    "message_type_not_selected": "Tipul documentului nu a fost selectat"
+  },
+  "bottom_nav_bar_item": {
+    "home": "Domiciliu",
+    "pay_slips": "Pay Slips",
+    "calendar": "Calendar",
+    "profile": "Profil"
+  },
+  "reset_password_screen": {
+    "name_page": "Resetarea parolei",
+    "user_instruction_message": "Introduceți numele de utilizator sau e-mailul asociat contului și vă vom trimite un e-mail cu instrucțiuni pentru a vă reseta parola.",
+    "email_textfield_hint": "Nume de utilizator sau e-mail",
+    "button_send": "Trimiteți instrucțiuni de recuperare",
+    "check_your_mail": "Verificați-vă e-mailul",
+    "user_instruction_message2": "Am trimis o instrucțiune de recuperare a parolei la e-mailul dvs.",
+    "button_open_mail_app": "Deschideți aplicația de e-mail",
+    "return_to_login": "Reveniți la conectare",
+    "bottom_text": "Nu a primit un e-mail? Verificați folderul spam sau ",
+    "show_no_mail_apps_dialog": {
+      "title": "Deschideți aplicația Mail",
+      "content": "Nu sunt instalate aplicații de e-mail",
+      "ok": "Ok"
+    },
+    "username": "Nume de utilizator",
+    "password": "Parolă",
+    "repeat_password": "Repetați parola",
+    "save_new_password": "Salvarea parolei noi",
+    "input_error_message_mail": "Vă rugăm să introduceți numele de utilizator sau adresa de e-mail",
+    "another_mail_adress": "încercați o altă adresă de e-mail"
+  },
+  "initial_screen": {
+    "login": "Login",
+    "create_account": "Creați un cont",
+    "skip": "Sări peste"
+  },
+  "registration_screen": {
+    "email_adress": "Adresa de e-mail",
+    "next_step": "Pasul următor",
+    "first_name": "Prenume",
+    "last_name": "Nume de familie",
+    "phone_number": "Număr de telefon",
+    "username": "Nume de utilizator",
+    "password": "Parolă",
+    "repeat_password": "Repetați parola",
+    "create_account": "Creați un cont",
+    "fields_are_not_filled": "Vă rugăm să completați toate câmpurile",
+    "passwords_do_not_match": "Parolele nu se potrivesc"
+  },
+  "tigris_file_preview": {
+    "folder_not_selected": "Folder neselectat",
+    "the_file_is_saved_in": "Fișierul este salvat în",
+    "file_retrieval_error": "Eroare de regăsire a fișierelor"
+  },
+  "job_application_form": {
+    "title_enter_name": "Vă rugăm să introduceți numele dvs.",
+    "previous_step": "Pasul anterior",
+    "select_a_file": "Selectarea unui fișier",
+    "title_request_success": "Solicitarea dumneavoastră a fost salvată cu succes și va fi procesată de noi cât mai curând posibil",
+    "title_enter_phone": "Vă rugăm să introduceți numărul de telefon și e-mailul",
+    "title_enter_profession": "Vă rugăm să intrați în profesia dorită",
+    "title_ask_for_download": "Doriți să vă încărcați CV-ul?",
+    "yes_upload": "Da, încărcați ...",
+    "file_not_selected": "Fișier neselectat",
+    "search_in": "Căutați în",
+    "button_upload_cv": "Da, încărcați CV-ul",
+    "description_ask_for_download": "Îl vom aranja pentru tine!",
+    "welcom": "Bun venit",
+    "description_create_account": "Cu aceste informații, vom ajunge să lucrăm pentru dvs. Bat?",
+    "next_step": "Da, următorul pas!",
+    "failed_upload_resume": "Imposibil de procesat CV-ul",
+    "message_user_exists": " Această adresă de e-mail este deja în uz. Vă rugăm să vă conectați sau să reveniți și să vă schimbați e-mailul",
+    "description_email_confirmation": "Un e-mail cu un cod de confirmare a fost trimis la adresa de e-mail specificată. Copiați codul și introduceți în câmpul de mai jos",
+    "email_confirmation": "Trebuie să verificați e-mailul utilizatorului!",
+    "title_input_confirmation_code": "Introduceți codul de confirmare",
+    "button_title_confirm_email_address": "Confirmați adresa de e-mail",
+    "title_profession_page": "Ce cauți?",
+    "description_profession_page": "Ce caracteristici preferați?",
+    "failed_parsed_resume": "CV-ul a fost analizat, dar nu s-au găsit date în el. Încercați un alt CV",
+    "name_list_functions": "Funcții selectate",
+    "no_profession_selected": "Nu sunt selectate funcții. Vă rugăm să adăugați o funcție ",
+    "max_number_of_professions": " Nu este posibil să intrați în mai mult de 5 profesii",
+    "button_i_chose_features": "Am ales caracteristici",
+    "title_finish_page": "A face bine!",
+    "description_finish_page": "Vom ajunge să lucrăm pentru tine!"
+  },
+  "close": "Închide",
+  "calendar_screen": {
+    "planned_shifts": "Schimburi planificate",
+    "today": "Azi ",
+    "planned": "Planificate",
+    "available": "Disponibil",
+    "description": "Descriere",
+    "location": "Loc",
+    "ask_acceptance": "Acceptarea serviciului?",
+    "error": "Nu s-a reușit procesarea solicitării",
+    "weekdays": {
+      "monday": "L",
+      "tuesday": "M",
+      "wednesday": "M",
+      "thursday": "J",
+      "friday": "V",
+      "saturday": "S",
+      "sunday": "D"
+    }
+  },
+  "loading_text": "  incărcare.",
+  "no_internet_connection": "Fără conexiune la internet",
+  "edit_document": {
+    "share_with": "Partajat cu:",
+    "yes": "Da",
+    "no": "Nu",
+    "not_share": "Nu este posibil să se împărtășească cu această agenție"
+  },
+  "button_download": "Descărca",
+  "contact": "Contact",
+  "upload_file": "Încărcați fișierul",
+  "error_message_application": "A apărut o eroare. Contactați agenția sau contactați asistența",
+  "no_file_selected": "Fișier neselectat"
+}

@@ -1,0 +1,45 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'expenses_day_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_ExpensesDayModel _$$_ExpensesDayModelFromJson(Map<String, dynamic> json) =>
+    _$_ExpensesDayModel(
+      Id: json['Id'] as String?,
+      allocation: json['allocation'] as String?,
+      amount: (json['amount'] as num?)?.toDouble(),
+      bedrag: (json['bedrag'] as num?)?.toDouble(),
+      comment: json['comment'] as String?,
+      costPerUnit: (json['costPerUnit'] as num?)?.toDouble(),
+      dayNumber: json['dayNumber'] as int?,
+      doubleD: json['doubleD'] as bool?,
+      et: json['et'] as String?,
+      facturatie: json['facturatie'] as bool?,
+      isDividedPerDays: json['isDividedPerDays'] as bool?,
+      pr: json['pr'] as String?,
+      routeFrom: json['routeFrom'] as String?,
+      routeTo: json['routeTo'] as String?,
+      wr: json['wr'] as String?,
+    );
+
+Map<String, dynamic> _$$_ExpensesDayModelToJson(_$_ExpensesDayModel instance) =>
+    <String, dynamic>{
+      'Id': instance.Id,
+      'allocation': instance.allocation,
+      'amount': instance.amount,
+      'bedrag': instance.bedrag,
+      'comment': instance.comment,
+      'costPerUnit': instance.costPerUnit,
+      'dayNumber': instance.dayNumber,
+      'doubleD': instance.doubleD,
+      'et': instance.et,
+      'facturatie': instance.facturatie,
+      'isDividedPerDays': instance.isDividedPerDays,
+      'pr': instance.pr,
+      'routeFrom': instance.routeFrom,
+      'routeTo': instance.routeTo,
+      'wr': instance.wr,
+    };

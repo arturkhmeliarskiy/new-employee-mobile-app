@@ -1,0 +1,31 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'pop_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_PopDataModel _$$_PopDataModelFromJson(Map<String, dynamic> json) =>
+    _$_PopDataModel(
+      id: json['id'] as String,
+      endDate: json['endDate'] as String,
+      hourRate: json['hourRate'] as String,
+      externalTariff: json['externalTariff'] as String,
+      startDate: json['startDate'] as String,
+      sfRecordId: json['sfRecordId'] as String,
+      createdAt: json['createdAt'] as String,
+      placementId: json['placementId'] as String,
+    );
+
+Map<String, dynamic> _$$_PopDataModelToJson(_$_PopDataModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'endDate': instance.endDate,
+      'hourRate': instance.hourRate,
+      'externalTariff': instance.externalTariff,
+      'startDate': instance.startDate,
+      'sfRecordId': instance.sfRecordId,
+      'createdAt': instance.createdAt,
+      'placementId': instance.placementId,
+    };

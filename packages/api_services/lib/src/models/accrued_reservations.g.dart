@@ -1,0 +1,20 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'accrued_reservations.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+AccruedReservations _$AccruedReservationsFromJson(Map<String, dynamic> json) =>
+    AccruedReservations(
+      (json['currency'] as num?)?.toDouble(),
+      (json['hours'] as num?)?.toDouble(),
+    );
+
+Map<String, dynamic> _$AccruedReservationsToJson(
+        AccruedReservations instance) =>
+    <String, dynamic>{
+      'currency': instance.currency,
+      'hours': instance.hours,
+    };

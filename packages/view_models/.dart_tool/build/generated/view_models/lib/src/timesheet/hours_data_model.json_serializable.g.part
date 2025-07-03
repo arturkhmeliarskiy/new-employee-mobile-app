@@ -1,0 +1,35 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_HoursDataModel _$$_HoursDataModelFromJson(Map<String, dynamic> json) =>
+    _$_HoursDataModel(
+      id: json['id'] as String,
+      cardType: json['cardType'] as String,
+      name: json['name'] as String,
+      date: json['date'] as String,
+      amountOfHours: (json['amountOfHours'] as num).toDouble(),
+      description: json['description'] as String,
+      isDeleted: json['isDeleted'] as bool,
+      sfRecordId: json['sfRecordId'] as String,
+      createdAt: json['createdAt'] as String,
+      projectId: json['projectId'] as String,
+      tarifId: json['tarifId'] as String,
+      unraveling: json['unraveling'] as bool,
+    );
+
+Map<String, dynamic> _$$_HoursDataModelToJson(_$_HoursDataModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'cardType': instance.cardType,
+      'name': instance.name,
+      'date': instance.date,
+      'amountOfHours': instance.amountOfHours,
+      'description': instance.description,
+      'isDeleted': instance.isDeleted,
+      'sfRecordId': instance.sfRecordId,
+      'createdAt': instance.createdAt,
+      'projectId': instance.projectId,
+      'tarifId': instance.tarifId,
+      'unraveling': instance.unraveling,
+    };

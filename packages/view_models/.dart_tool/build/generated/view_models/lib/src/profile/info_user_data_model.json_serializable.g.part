@@ -1,0 +1,24 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_InfoUserDataModel _$$_InfoUserDataModelFromJson(Map<String, dynamic> json) =>
+    _$_InfoUserDataModel(
+      user: json['user'] == null
+          ? null
+          : UserDataInfoModel.fromJson(json['user'] as Map<String, dynamic>),
+      recordsData: (json['recordsData'] as List<dynamic>?)
+          ?.map((e) => RecordsDataModel.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      agencyData: (json['agencyData'] as List<dynamic>?)
+          ?.map((e) => AgencyDataModel.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
+Map<String, dynamic> _$$_InfoUserDataModelToJson(
+        _$_InfoUserDataModel instance) =>
+    <String, dynamic>{
+      'user': instance.user,
+      'recordsData': instance.recordsData,
+      'agencyData': instance.agencyData,
+    };

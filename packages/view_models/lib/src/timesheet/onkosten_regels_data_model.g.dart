@@ -1,0 +1,59 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'onkosten_regels_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_OnkostenRegelsDataModel _$$_OnkostenRegelsDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_OnkostenRegelsDataModel(
+      id: json['id'] as String,
+      name: json['name'] as String,
+      date: json['date'] as String,
+      numberOfUnits: json['numberOfUnits'] as int,
+      price: json['price'] as String,
+      pricePerPaymentFrequency: json['pricePerPaymentFrequency'] as String,
+      explanation: json['explanation'] as String,
+      sfOrgId: json['sfOrgId'] as String,
+      sfLEId: json['sfLEId'] as String,
+      amountCostPerUnit: json['amountCostPerUnit'] as String,
+      sfRecordId: json['sfRecordId'] as String,
+      bTW: json['bTW'] as String,
+      isDividedPerDays: json['isDividedPerDays'] as bool,
+      maximaalBedrag: json['maximaalBedrag'] as String,
+      sfWithdrawalRemainder: json['sfWithdrawalRemainder'] as String,
+      createdAt: json['createdAt'] as String,
+      cpcExpenseTypeConfigId: json['cpcExpenseTypeConfigId'] as String,
+      invoiceId: json['invoiceId'] as String,
+      projectId: json['projectId'] as String,
+      timesheetId: json['timesheetId'] as String,
+      timesheetExpenseTypeId: json['timesheetExpenseTypeId'] as String,
+    );
+
+Map<String, dynamic> _$$_OnkostenRegelsDataModelToJson(
+        _$_OnkostenRegelsDataModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+      'date': instance.date,
+      'numberOfUnits': instance.numberOfUnits,
+      'price': instance.price,
+      'pricePerPaymentFrequency': instance.pricePerPaymentFrequency,
+      'explanation': instance.explanation,
+      'sfOrgId': instance.sfOrgId,
+      'sfLEId': instance.sfLEId,
+      'amountCostPerUnit': instance.amountCostPerUnit,
+      'sfRecordId': instance.sfRecordId,
+      'bTW': instance.bTW,
+      'isDividedPerDays': instance.isDividedPerDays,
+      'maximaalBedrag': instance.maximaalBedrag,
+      'sfWithdrawalRemainder': instance.sfWithdrawalRemainder,
+      'createdAt': instance.createdAt,
+      'cpcExpenseTypeConfigId': instance.cpcExpenseTypeConfigId,
+      'invoiceId': instance.invoiceId,
+      'projectId': instance.projectId,
+      'timesheetId': instance.timesheetId,
+      'timesheetExpenseTypeId': instance.timesheetExpenseTypeId,
+    };

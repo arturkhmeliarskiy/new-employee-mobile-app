@@ -1,0 +1,41 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'payslips_info_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_PayslipsInfoDataModel _$$_PayslipsInfoDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_PayslipsInfoDataModel(
+      id: json['id'] as String,
+      period: json['period'] as String,
+      link: json['link'] as String,
+      year: json['year'] as int,
+      nettoSalary: json['nettoSalary'] as String,
+      nettoSalaryPeriod: json['nettoSalaryPeriod'] as String,
+      employeeId: json['employeeId'] as String,
+      weeksRange: json['weeksRange'] as String,
+      isAnnualStatement: json['isAnnualStatement'] as bool,
+      createdAt: json['createdAt'] as String,
+      logoAgency: json['logoAgency'] as String,
+      nameAgency: json['nameAgency'] as String,
+    );
+
+Map<String, dynamic> _$$_PayslipsInfoDataModelToJson(
+        _$_PayslipsInfoDataModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'period': instance.period,
+      'link': instance.link,
+      'year': instance.year,
+      'nettoSalary': instance.nettoSalary,
+      'nettoSalaryPeriod': instance.nettoSalaryPeriod,
+      'employeeId': instance.employeeId,
+      'weeksRange': instance.weeksRange,
+      'isAnnualStatement': instance.isAnnualStatement,
+      'createdAt': instance.createdAt,
+      'logoAgency': instance.logoAgency,
+      'nameAgency': instance.nameAgency,
+    };

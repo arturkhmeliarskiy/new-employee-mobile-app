@@ -1,0 +1,361 @@
+{
+  "language": "Język",
+  "login_screen": {
+    "password_textfield_hint": "Hasło",
+    "forgot_password_button": "Zapomniałeś hasła?",
+    "missing_credentails": "Brakujące credentails",
+    "username_textfield_hint": "Nazwa użytkownika",
+    "bottom_button": "Zaloguj sie"
+  },
+  "pin_code_screen": {
+    "fail_pin_code": "Nieprawidłowy kod PIN",
+    "forgot_pin": "Zapomniałeś szpilki?",
+    "pin_code_disabled": "Kod PIN wyłączony"
+  },
+  "home_screen": {
+    "title_exit_app": "Zamknij aplikację",
+    "question_log_out_of_the_app": "Czy chcesz zamknąć aplikację?",
+    "exit_app_dialog_ok": "Ok",
+    "hello": "Witam",
+    "block_header1": "Przegląd",
+    "hours_worked": "Przepracowane godziny",
+    "accrued_holiday_pay": "Naliczone wynagrodzenie urlopowe",
+    "accrued_holiday_hours": "Naliczone godziny urlopu",
+    "my_agencies": "Moje agencje",
+    "total": "łączny",
+    "month": "miesiąc",
+    "looking_for_a_job": "Szukasz pracy?",
+    "button_yes": "Tak",
+    "button_show_more": "Pokaż więcej"
+  },
+  "week": "tydzień",
+  "news": "Wiadomości",
+  "no_news": "Brak nowości",
+  "default": "domyślny",
+  "no_documents_available": "Brak dostępnych dokumentów",
+  "agency_related_info_screen": {
+    "days_until_payout": "Dni do wypłaty",
+    "average_worked_hours": "Średnia przepracowanych godzin",
+    "my_employers": "Moi pracodawcy",
+    "no_employers": "Brak pracodawców",
+    "no_documents": "Brak dokumentów",
+    "not_specified": "Nie określono"
+  },
+  "agency_contact_modal_window": {
+    "chat": "Czat",
+    "or": "lub"
+  },
+  "chat_screen": {
+    "error_message_was_not_sent": "Błąd. Wiadomość nie została wysłana"
+  },
+  "info_modal_window": {
+    "your_contact": "Twój kontakt",
+    "custom_text_field": "Dostępne od 6-8 dziennie"
+  },
+  "hours": "Godzin",
+  "costs": "Koszty",
+  "submitted_timesheet_screen": {
+    "function": "Funkcja",
+    "week_nr": "Tydzień nr.",
+    "start_date": "Data rozpoczęcia",
+    "end_date": "Data zakończenia",
+    "question_confirm": "Potwierdź komentarz?",
+    "confirm": "Potwierdzić",
+    "question_decline": "Dlaczego chcesz odrzucić ten grafik?",
+    "reason_for_refusal": "Proszę podać przyczynę odrzucenia",
+    "decline": "Odrzucać",
+    "no_timesheets": "Brak grafików"
+  },
+  "regestration_hours_selection": {
+    "standart_hours": "Standardowe godziny pracy",
+    "from_to_hours": "Od do godzin"
+  },
+  "registration_timesheets_screen": {
+    "via": "droga",
+    "select_week": "Wybierz tydzień",
+    "hour_type_not_selected": "Nie wybrano typu godziny",
+    "add_registration": "Dodaj rejestrację ",
+    "approve": "Zatwierdzić",
+    "total_hours": "Całkowita liczba godzin",
+    "total_costs": "Koszty całkowite",
+    "reject": "Odrzucać",
+    "send": "Wyślij",
+    "project_not_selected": "Projekt nie został wybrany",
+    "message_info1": "Suma wszystkich godzin dla jednego dnia musi być mniejsza lub równa ",
+    "message_info2": "Suma wszystkich godzin w tygodniu musi być mniejsza lub równa ",
+    "message_info3": "Godzin nie można zarejestrować. Skontaktuj się z agencją",
+    "message_info4": "Wartość nie może być większa niż",
+    "message_info5": "Wartość nie może być mniejsza niż",
+    "message_info6": "Całkowity koszt nie może być większy niż",
+    "message_info7": "Całkowity koszt nie może być mniejszy niż",
+    "message_info8": "Całkowita liczba jednostek nie może być większa niż",
+    "message_info9": "Całkowita liczba jednostek nie może być mniejsza niż",
+    "message_info10_1": "Dozwolone nie więcej niż",
+    "message_info10_2": "wydatki tygodniowo",
+    "posting_period": "Kartę czasu pracy można utworzyć tylko w okresie",
+    "tariff_is_not_valid": "taryfa nie obowiązuje w tym okresie",
+    "message_info11": "Liczba godzin w tym tempie dziennie musi być mniejsza lub równa",
+    "successfully_saved": "Grafika została pomyślnie zapisana",
+    "error_saved": "Błąd zapisywania grafiku",
+    "project_required": "Wymagany projekt",
+    "message_required_hours": "Nie ukończyłeś wszystkich wymaganych godzin",
+    "empty_hours": "wypełnij pola dla liczby godzin",
+    "key2ValuesMap_VDw": "Dni ustawowo wolne od pracy",
+    "key2ValuesMap_VDb": "Powyższe dni ustawowo wolne od pracy",
+    "key2ValuesMap_VDt": "Całkowita liczba wakacji",
+    "key2ValuesMap_FD": "Wakacje",
+    "key2ValuesMap_KV": "Krótka nieobecność",
+    "key2ValuesMap_ADV": "Krótszy czas pracy",
+    "key2ValuesMap_TvT": "Godziny kompensacyjne",
+    "key2ValuesMap_VG": "Dodatek urlopowy",
+    "key2ValuesMap_WDC": "WDC",
+    "message_info12": "WML nie wypełnia się w kolejnych terminach",
+    "message_info13": "Stawka godzinowa nie jest wypełniana w kolejnych terminach",
+    "message_info14": "Stawka godzinowa mniej dozwolona wml w następnych terminach",
+    "message_info15": "Rozwiąż te problemy, które będziesz mógł zatwierdzić w tym grafiku",
+    "message_info16": "Dla obecnego pracownika nie wypełnia daty urodzin. Nie można obliczyć WML",
+    "message_info17": "Nie możesz wypełnić godzin w tym tygodniu. Prosimy o kontakt",
+    "message_info18": "Wybierz taryfę",
+    "message_info19": "Wybierz taryfę i dodaj żądaną liczbę godzin",
+    "message_info20": "Nie wybrano stawki kosztu",
+    "message_info21": "Czas rozpoczęcia nie może być dłuższy niż czas zakończenia",
+    "message_info22": "Czas jest już w użyciu",
+    "message_info23": "Dzień pracy jest od {1} do {2}. Przerwa musi odbyć się w tych ramach czasowych.",
+    "is_not_select_type_reserv": "Nie wybrano typu rezerwacji"
+  },
+  "card_timesheet_reservation": {
+    "reservation": "Rezerwacja",
+    "available": "Dostępny",
+    "available_balance": "Dostępne saldo"
+  },
+  "monday": "Poniedziałek",
+  "tuesday": "Wtorek",
+  "wednesday": "Środa",
+  "thursday": "Czwartek",
+  "friday": "Piątek",
+  "saturday": "Sobota",
+  "sunday": "Niedziela",
+  "sheet_modal_window": {
+    "view_add_sheets": "Widok/Dodawanie arkuszy",
+    "select_employer": "Wybierz pracodawcę"
+  },
+  "types_registration": {
+    "new_registration": "Nowa rejestracja",
+    "ritten": "Przejażdżki",
+    "expenses": "Wydatki",
+    "reservations": "Rezerwacje"
+  },
+  "show_contact_information": "Pokaż informacje kontaktowe",
+  "payslips_screen": {
+    "message_null_payslips": "Brak dostępnych sprawozdań rocznych",
+    "period": "Okres",
+    "item_drop_down_pay_slips": "Odcinki wypłat",
+    "item_drop_down_annual_statements": "Sprawozdania roczne"
+  },
+  "profile_screen": {
+    "notifications": "Powiadomienia",
+    "name_page": "Profil",
+    "hours_approved": "Godziny zatwierdzone",
+    "message_empty_list": "Brak wiadomości",
+    "notification_dialog_cancel": "Anulować",
+    "notification_dialog_ok": "Ok",
+    "new_chat_messages": "Nowe wiadomości na czacie"
+  },
+  "language_modal_window": {
+    "lang_name1": "Angielski",
+    "lang_name6": "Rumuński",
+    "lang_name5": "Portugalski",
+    "lang_name4": "Holenderski",
+    "lang_name3": "Polski",
+    "lang_name2": "Niemiecki",
+    "message_successfully_saved": "Pomyślnie zapisane"
+  },
+  "back_button_name": "Zwrócić",
+  "settings_modal_window": {
+    "name_page": "Ustawienia",
+    "profile": "Profil",
+    "basic_information": "Podstawowe informacje",
+    "work_preferences": "Preferencje pracy",
+    "security": "Bezpieczeństwo",
+    "my_documents": "Moje dokumenty",
+    "agency_documents": "Dokumenty agencyjne",
+    "preferences": "Preferencje",
+    "logout": "Wyloguj",
+    "ask_for_confirmation": "Chcesz się wylogować?",
+    "title_agency_documents": "Udostępnione dokumenty"
+  },
+  "documents": "Dokumentów",
+  "language_name": "Polish",
+  "basic_information_modal_window": {
+    "message_successfully_saved": "Pomyślnie zapisane",
+    "basic_information": "Podstawowe informacje",
+    "change_picture": "Zmień obraz",
+    "telephone_number": "Numer telefonu",
+    "profile": {
+      "profile_title": "Profil",
+      "hint_nick_name": "Pseudonim",
+      "hint_date_of_birth": "Data urodzenia",
+      "hint_nationality": "Narodowość",
+      "hint_first_name": "Imię",
+      "hint_last_name": "Nazwisko"
+    }
+  },
+  "button_cancel": "Anulować",
+  "button_save": "Zapisać",
+  "work_preferences_modal_window": {
+    "message_successfully_saved": "Pomyślnie zapisane",
+    "name_page": "Pereferencje robocze",
+    "hint_desired_salary": "Pożądane wynagrodzenie",
+    "hint_desired_function": "Żądana funkcja",
+    "hint_max_travel_time_minutes": "Maksymalny czas podróży minut"
+  },
+  "security_modal_window": {
+    "change_pin_code": "Zmiana kodu PIN",
+    "change_password": "Zmień hasło"
+  },
+  "pin_code_modal_window": {
+    "name_page": "Kod PIN",
+    "create_pincode": "Utwórz kod PIN",
+    "switch_pin_code": "Przełącz kod PIN",
+    "registration_pin_code_screen": {
+      "title": "Chcesz zalogować się za pomocą kodu PIN?",
+      "skip": "Pominąć"
+    }
+  },
+  "password_modal_window": {
+    "message_successfully_saved": "Pomyślnie zapisane",
+    "hint_old_password": "Stare hasło",
+    "hint_new_password": "Nowe hasło",
+    "hint_confirm_password": "Potwierdź hasło"
+  },
+  "my_documents_modal_window": {
+    "message_successfully_saved": "Pomyślnie zapisane",
+    "my_cv": "Moje CV",
+    "no_my_cv": "Nie przesłano CV",
+    "my_personal_documents": "Moje dokumenty osobiste",
+    "no_my_personal_documents": "Brak dokumentów osobistych",
+    "sharing_with_the_agency": "Udostępnianie z agencją",
+    "add_document": "Dodaj dokument ",
+    "title_validity": "Ważność",
+    "title_document_type": "Typ dokumentu",
+    "hint_input_date": "Wybierz datę wygaśnięcia",
+    "hint_type_document": "Wybierz typ dokumentu",
+    "message_type_not_selected": "Typ dokumentu nie został wybrany"
+  },
+  "bottom_nav_bar_item": {
+    "home": "Dom",
+    "pay_slips": "Odcinki wypłat",
+    "calendar": "Kalendarz",
+    "profile": "Profil"
+  },
+  "reset_password_screen": {
+    "name_page": "Resetowanie hasła",
+    "user_instruction_message": "Wpisz nazwę użytkownika lub adres e-mail powiązany z Twoim kontem, a my wyślemy wiadomość e-mail z instrukcjami resetowania hasła.",
+    "email_textfield_hint": "Nazwa użytkownika lub adres e-mail",
+    "button_send": "Wysyłanie instrukcji odzyskiwania",
+    "check_your_mail": "Sprawdź pocztę",
+    "user_instruction_message2": "Wysłaliśmy instrukcję odzyskiwania hasła na Twój adres e-mail.",
+    "button_open_mail_app": "Otwórz aplikację pocztową",
+    "return_to_login": "Powrót do logowania",
+    "bottom_text": "Nie otrzymałeś e-maila? Sprawdź folder ze spamem lub ",
+    "show_no_mail_apps_dialog": {
+      "title": "Otwórz aplikację Mail",
+      "content": "Brak zainstalowanych aplikacji pocztowych",
+      "ok": "Ok"
+    },
+    "username": "Nazwa użytkownika",
+    "password": "Hasło",
+    "repeat_password": "Powtórz hasło",
+    "save_new_password": "Zapisz nowe hasło",
+    "input_error_message_mail": "Podaj swoją nazwę użytkownika lub adres e-mail",
+    "another_mail_adress": "spróbuj użyć innego adresu e-mail"
+  },
+  "initial_screen": {
+    "login": "Login",
+    "create_account": "Załóż konto",
+    "skip": "Pominąć"
+  },
+  "registration_screen": {
+    "email_adress": "Adres e-mail",
+    "next_step": "Następny krok",
+    "first_name": "Imię",
+    "last_name": "Nazwisko",
+    "phone_number": "Numer",
+    "username": "Nazwa użytkownika",
+    "password": "Hasło",
+    "repeat_password": "Powtórz hasło",
+    "create_account": "Załóż konto",
+    "fields_are_not_filled": "Proszę wypełnić wszystkie pola",
+    "passwords_do_not_match": "Hasła nie są zgodne"
+  },
+  "tigris_file_preview": {
+    "folder_not_selected": "Folder nie został wybrany",
+    "the_file_is_saved_in": "Plik zostanie zapisany w",
+    "file_retrieval_error": "Błąd pobierania plików"
+  },
+  "job_application_form": {
+    "title_enter_name": "Wpisz swoje imię i nazwisko",
+    "previous_step": "Poprzedni krok",
+    "select_a_file": "Wybierz plik",
+    "title_request_success": "Twoja prośba została pomyślnie zapisana i zostanie przez nas przetworzona tak szybko, jak to możliwe",
+    "title_enter_phone": "Podaj swój numer telefonu i adres e-mail",
+    "title_enter_profession": "Wprowadź żądany zawód",
+    "title_ask_for_download": "Chcesz przesłać swoje CV?",
+    "yes_upload": "Tak, prześlij...",
+    "file_not_selected": "Plik nie został wybrany",
+    "search_in": "Szukaj w",
+    "button_upload_cv": "Tak, prześlij CV",
+    "description_ask_for_download": "Zorganizujemy to dla Ciebie!",
+    "welcom": "Welcom",
+    "description_create_account": "Dzięki tym informacjom zabierzemy się do pracy dla Ciebie. Czy pukają?",
+    "next_step": "Tak, następny krok!",
+    "failed_upload_resume": "Nie można przetworzyć życiorysu",
+    "message_user_exists": " Ten adres e-mail jest już używany. Zaloguj się lub wróć i zmień adres e-mail",
+    "description_email_confirmation": "Na podany adres e-mail została wysłana wiadomość e-mail z kodem potwierdzającym. Skopiuj kod i wpisz w polu poniżej",
+    "email_confirmation": "Musisz zweryfikować adres e-mail użytkownika!",
+    "title_input_confirmation_code": "Wprowadź kod potwierdzający",
+    "button_title_confirm_email_address": "Potwierdź adres e-mail",
+    "title_profession_page": "Czego szukasz?",
+    "description_profession_page": "Jakie funkcje preferujesz?",
+    "failed_parsed_resume": "Twoje CV zostało przeanalizowane, ale nie znaleziono w nim żadnych danych. Wypróbuj inne CV",
+    "name_list_functions": "Wybrane funkcje",
+    "no_profession_selected": "Nie wybrano żadnych funkcji. Proszę dodać funkcję ",
+    "max_number_of_professions": " Nie można wprowadzić więcej niż 5 zawodów",
+    "button_i_chose_features": "Wybrałem funkcje",
+    "title_finish_page": "Dobrze sobie radzi!",
+    "description_finish_page": "Zabierzemy się do pracy dla Ciebie!"
+  },
+  "close": "Zamykać",
+  "calendar_screen": {
+    "planned_shifts": "Planowane zmiany",
+    "today": "Dzisiaj ",
+    "planned": "Rozmyślny",
+    "available": "Dostępny",
+    "description": "Opis",
+    "location": "Lokalizacja",
+    "ask_acceptance": "Akceptacja usługi?",
+    "error": "Nie udało się przetworzyć żądania",
+    "weekdays": {
+      "monday": "P",
+      "tuesday": "W",
+      "wednesday": "S",
+      "thursday": "C",
+      "friday": "P",
+      "saturday": "S",
+      "sunday": "N"
+    }
+  },
+  "loading_text": "  ladowania.",
+  "no_internet_connection": "Brak połączenia z Internetem",
+  "edit_document": {
+    "share_with": "Współdzielone z:",
+    "yes": "Tak",
+    "no": "Nie",
+    "not_share": "Nie można udostępnić tej agencji"
+  },
+  "button_download": "Pobierać",
+  "contact": "Kontakt",
+  "upload_file": "Prześlij plik",
+  "error_message_application": "Wystąpił błąd. Skontaktuj się z agencją lub skontaktuj się z pomocą techniczną",
+  "no_file_selected": "Plik nie został wybrany"
+}

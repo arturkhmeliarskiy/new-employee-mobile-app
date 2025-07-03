@@ -1,0 +1,361 @@
+{
+  "language": "Sprache",
+  "login_screen": {
+    "password_textfield_hint": "Passwort",
+    "forgot_password_button": "Passwort vergessen?",
+    "missing_credentails": "Fehlende Glaubwürdigkeit",
+    "username_textfield_hint": "Nutzername",
+    "bottom_button": "Anmeldung"
+  },
+  "pin_code_screen": {
+    "fail_pin_code": "Ungültiger PIN-Code",
+    "forgot_pin": "Pin vergessen?",
+    "pin_code_disabled": "PIN-Code deaktiviert"
+  },
+  "home_screen": {
+    "title_exit_app": "App Beenden",
+    "question_log_out_of_the_app": "Möchten sie eine App beenden?",
+    "exit_app_dialog_ok": "Okay",
+    "hello": "Hallo",
+    "block_header1": "Überblick",
+    "hours_worked": "Geleistete arbeitsstunden",
+    "accrued_holiday_pay": "Aufgelaufenes urlaubsgeld",
+    "accrued_holiday_hours": "Aufgelaufene ferienstunden",
+    "my_agencies": "Meine agenturen",
+    "total": "insgesamt",
+    "month": "monat",
+    "looking_for_a_job": "Auf der Suche nach einem Job?",
+    "button_yes": "Ja",
+    "button_show_more": "Zeige mehr"
+  },
+  "week": "woche",
+  "news": "News",
+  "no_news": "Keine neuigkeiten",
+  "default": "vorgabe",
+  "no_documents_available": "Keine Dokumente verfügbar",
+  "agency_related_info_screen": {
+    "days_until_payout": "Tage bis zur Auszahlung",
+    "average_worked_hours": "Durchschnittlich geleistete Arbeitszeit",
+    "my_employers": "Meine Arbeitgeber",
+    "no_employers": "Keine Arbeitgeber",
+    "no_documents": "Keine Dokumente",
+    "not_specified": "Nicht spezifiziert"
+  },
+  "agency_contact_modal_window": {
+    "chat": "Plaudern",
+    "or": "oder"
+  },
+  "chat_screen": {
+    "error_message_was_not_sent": "Fehler. Nachricht wurde nicht gesendet"
+  },
+  "info_modal_window": {
+    "your_contact": "Ihr Ansprechpartner",
+    "custom_text_field": "Täglich von 6-8 Uhr verfügbar"
+  },
+  "hours": "Stunden",
+  "costs": "Kosten",
+  "submitted_timesheet_screen": {
+    "function": "Funktion",
+    "week_nr": "Woche nr.",
+    "start_date": "Startdatum",
+    "end_date": "Enddatum",
+    "question_confirm": "Bestätigen Sie den Kommentar?",
+    "confirm": "Bestätigen",
+    "question_decline": "Warum möchten Sie diese Arbeitszeittabelle ablehnen?",
+    "reason_for_refusal": "Bitte geben Sie den Grund für die Ablehnung an",
+    "decline": "Ablehnen",
+    "no_timesheets": "Keine Arbeitszeittabellen"
+  },
+  "regestration_hours_selection": {
+    "standart_hours": "Standart-Stunden",
+    "from_to_hours": "Von bis zu Stunden"
+  },
+  "registration_timesheets_screen": {
+    "via": "Straße",
+    "select_week": "Woche auswählen",
+    "hour_type_not_selected": "Stundentyp nicht ausgewählt",
+    "add_registration": "Registrierung hinzufügen ",
+    "approve": "Billigen",
+    "total_hours": "Gesamtstunden",
+    "total_costs": "Gesamtkosten",
+    "reject": "Ablehnen",
+    "send": "Senden",
+    "project_not_selected": "Projekt nicht ausgewählt",
+    "message_info1": "Die Summe aller Stunden für einen Tag muss kleiner oder gleich sein ",
+    "message_info2": "Die Summe aller Stunden für die Woche, muss kleiner oder gleich sein",
+    "message_info3": "Die Stunden können nicht registriert werden. Kontaktieren Sie die Agentur",
+    "message_info4": "Der Wert darf nicht größer sein als",
+    "message_info5": "Der Wert darf nicht kleiner sein als",
+    "message_info6": "Die Gesamtkosten dürfen nicht höher sein als",
+    "message_info7": "Die Gesamtkosten dürfen nicht geringer sein als",
+    "message_info8": "Die Gesamtzahl der Einheiten darf nicht größer sein als",
+    "message_info9": "Die Gesamtzahl der Einheiten darf nicht geringer sein als",
+    "message_info10_1": "Erlaubt nicht mehr als",
+    "message_info10_2": "Ausgaben pro Woche",
+    "posting_period": "Die Arbeitszeittabelle kann nur während des Zeitraums erstellt werden",
+    "tariff_is_not_valid": "Tarif ist in diesem Zeitraum nicht gültig",
+    "message_info11": "Die Anzahl der Stunden pro Tag muss kleiner oder gleich",
+    "successfully_saved": "Arbeitszeittabelle erfolgreich gespeichert",
+    "error_saved": "Fehler beim Speichern von Arbeitszeittabellen",
+    "project_required": "Projekt erforderlich",
+    "message_required_hours": "Sie haben nicht alle erforderlichen Stunden absolviert",
+    "empty_hours": "Füllen Sie die Felder für die Anzahl der Stunden aus",
+    "key2ValuesMap_VDw": "Gesetzliche Feiertage",
+    "key2ValuesMap_VDb": "Über gesetzliche Feiertage",
+    "key2ValuesMap_VDt": "Feiertage insgesamt",
+    "key2ValuesMap_FD": "Ferien",
+    "key2ValuesMap_KV": "Kurze abwesenheit",
+    "key2ValuesMap_ADV": "Kürzere Arbeitszeiten",
+    "key2ValuesMap_TvT": "Ausgleichsstunden",
+    "key2ValuesMap_VG": "Urlaubsgeld",
+    "key2ValuesMap_WDC": "WDC",
+    "message_info12": "WML wird an den nächsten Terminen nicht ausgefüllt",
+    "message_info13": "Stundensatz wird an den nächsten Terminen nicht ausgefüllt",
+    "message_info14": "Stundensatz weniger erlaubt wml an den nächsten Terminen",
+    "message_info15": "Lösen Sie diese Probleme, die Sie in der Lage sein werden, diese Arbeitszeittabelle zu genehmigen",
+    "message_info16": "Für den aktuellen Mitarbeiter füllt das Datum des Geburtstags nicht aus. WML kann nicht berechnet werden",
+    "message_info17": "Sie können die Stunden für diese Woche nicht ausfüllen. Bitte wenden Sie sich an",
+    "message_info18": "Tarif wählen",
+    "message_info19": "Wählen Sie einen Tarif und fügen Sie die gewünschte Stundenzahl hinzu",
+    "message_info20": "Kostensatz nicht ausgewählt",
+    "message_info21": "Die Startzeit kann nicht größer als die Endzeit sein",
+    "message_info22": "Die Zeit wird bereits verwendet",
+    "message_info23": "Der Arbeitstag ist von {1} bis {2}. Die Pause muss innerhalb dieser Zeiten liegen.",
+    "is_not_select_type_reserv": "Reservierungsart nicht ausgewählt"
+  },
+  "card_timesheet_reservation": {
+    "reservation": "Reservierung",
+    "available": "Verfügbar",
+    "available_balance": "Verfügbares Guthaben"
+  },
+  "monday": "Montag",
+  "tuesday": "Dienstag",
+  "wednesday": "Mittwoch",
+  "thursday": "Donnerstag",
+  "friday": "Freitag",
+  "saturday": "Samstag",
+  "sunday": "Sonntag",
+  "sheet_modal_window": {
+    "view_add_sheets": "Ansehen/Blätter hinzufügen",
+    "select_employer": "Arbeitgeber auswählen"
+  },
+  "types_registration": {
+    "new_registration": "Neuregistrierung",
+    "ritten": "Ausritte",
+    "expenses": "Kosten",
+    "reservations": "Reservierungen"
+  },
+  "show_contact_information": "Kontaktinformationen anzeigen",
+  "payslips_screen": {
+    "message_null_payslips": "Noch keine Jahresberichte verfügbar",
+    "period": "Periode",
+    "item_drop_down_pay_slips": "Gehaltsabrechnungen",
+    "item_drop_down_annual_statements": "Jahresabschluss"
+  },
+  "profile_screen": {
+    "notifications": "Benachrichtigungen",
+    "name_page": "Profil",
+    "hours_approved": "Stunden genehmigt",
+    "message_empty_list": "Keine Nachrichten",
+    "notification_dialog_cancel": "Absagen",
+    "notification_dialog_ok": "In Ordnung",
+    "new_chat_messages": "Neue Chat-Nachrichten"
+  },
+  "language_modal_window": {
+    "lang_name1": "Englisch",
+    "lang_name6": "Rumänisch",
+    "lang_name5": "Portugiesisch",
+    "lang_name4": "Niederländisch",
+    "lang_name3": "Polieren",
+    "lang_name2": "Deutsch",
+    "message_successfully_saved": "Successfully saved"
+  },
+  "back_button_name": "Zurück",
+  "settings_modal_window": {
+    "name_page": "Einstellungen",
+    "profile": "Profil",
+    "basic_information": "Grundinformation",
+    "work_preferences": "Arbeitspräferenzen",
+    "security": "Sicherheit",
+    "my_documents": "Eigene Dokumente",
+    "agency_documents": "Agenturdokumente",
+    "preferences": "Einstellungen",
+    "logout": "Logout",
+    "ask_for_confirmation": "Möchten Sie sich abmelden?",
+    "title_agency_documents": "Mit Ihnen freigegebene Dokumente"
+  },
+  "documents": "Urkunden",
+  "language_name": "Deutsch",
+  "basic_information_modal_window": {
+    "message_successfully_saved": "Successfully saved",
+    "basic_information": "Grundinformation",
+    "change_picture": "Bild ändern",
+    "telephone_number": "Telefonnummer",
+    "profile": {
+      "profile_title": "Profil",
+      "hint_nick_name": "Spitzname",
+      "hint_date_of_birth": "Geburtsdatum",
+      "hint_nationality": "Nationalität",
+      "hint_first_name": "Vorname",
+      "hint_last_name": "Nachname"
+    }
+  },
+  "button_cancel": "Absagen",
+  "button_save": "Retten",
+  "work_preferences_modal_window": {
+    "message_successfully_saved": "Successfully saved",
+    "name_page": "Arbeitsergebnisse",
+    "hint_desired_salary": "Gewünschtes Gehalt",
+    "hint_desired_function": "Gewünschte Funktion",
+    "hint_max_travel_time_minutes": "Maximale fahrzeit minuten"
+  },
+  "security_modal_window": {
+    "change_pin_code": "PIN-Code ändern",
+    "change_password": "Passwort ändern"
+  },
+  "pin_code_modal_window": {
+    "name_page": "PIN-Code",
+    "create_pincode": "Pincode erstellen",
+    "switch_pin_code": "Schalten Sie den PIN-Code",
+    "registration_pin_code_screen": {
+      "title": "Möchten Sie sich mit PIN anmelden?",
+      "skip": "Hüpfen"
+    }
+  },
+  "password_modal_window": {
+    "message_successfully_saved": "Successfully saved",
+    "hint_old_password": "Altes Passwort",
+    "hint_new_password": "Neues Passwort",
+    "hint_confirm_password": "Passwort bestätigen"
+  },
+  "my_documents_modal_window": {
+    "message_successfully_saved": "Successfully saved",
+    "my_cv": "Mein Lebenslauf",
+    "no_my_cv": "Kein Lebenslauf hochgeladen",
+    "my_personal_documents": "Meine persönlichen Dokumente",
+    "no_my_personal_documents": "Keine persönlichen Dokumente",
+    "sharing_with_the_agency": "Teilen mit der Agentur",
+    "add_document": "Dokument hinzufügen ",
+    "title_validity": "Gültigkeit",
+    "title_document_type": "Dokumenttyp",
+    "hint_input_date": "Wählen Sie ein Ablaufdatum aus",
+    "hint_type_document": "Dokumenttyp auswählen",
+    "message_type_not_selected": "Dokumenttyp nicht ausgewählt"
+  },
+  "bottom_nav_bar_item": {
+    "home": "Heim",
+    "pay_slips": "Gehaltsabrechnungen",
+    "calendar": "Kalender",
+    "profile": "Profiel"
+  },
+  "reset_password_screen": {
+    "name_page": "Passwort zurücksetzen",
+    "user_instruction_message": "Geben Sie den Benutzernamen oder die E-Mail-Adresse ein, die mit Ihrem Konto verknüpft ist, und wir senden Ihnen eine E-Mail mit Anweisungen zum Zurücksetzen Ihres Passworts.",
+    "email_textfield_hint": "Benutzername oder E-Mail-Adresse",
+    "button_send": "Senden von Wiederherstellungsanweisungen",
+    "check_your_mail": "Überprüfen Sie Ihre E-Mails",
+    "user_instruction_message2": "Wir haben eine Anweisung zur Passwortwiederherstellung an Ihre E-Mail-Adresse gesendet.",
+    "button_open_mail_app": "Mail-App öffnen",
+    "return_to_login": "Zurück zum Login",
+    "bottom_text": "Sie haben keine E-Mail erhalten? Überprüfen Sie Ihren Spam-Ordner oder ",
+    "show_no_mail_apps_dialog": {
+      "title": "Mail-App öffnen",
+      "content": "Keine Mail-Apps installiert",
+      "ok": "Okay"
+    },
+    "username": "Nutzername",
+    "password": "Passwort",
+    "repeat_password": "Passwort wiederholen",
+    "save_new_password": "Neues Passwort speichern",
+    "input_error_message_mail": "Bitte geben Sie Ihren Benutzernamen oder Ihre E-Mail-Adresse ein",
+    "another_mail_adress": "Versuchen Sie es mit einer anderen E-Mail-Adresse"
+  },
+  "initial_screen": {
+    "login": "Login",
+    "create_account": "Konto erstellen",
+    "skip": "Hüpfen"
+  },
+  "registration_screen": {
+    "email_adress": "E-Mail-Adresse",
+    "next_step": "Nächster Schritt",
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "phone_number": "Telefonnummer",
+    "username": "Nutzername",
+    "password": "Passwort",
+    "repeat_password": "Passwort wiederholen",
+    "create_account": "Konto erstellen",
+    "fields_are_not_filled": "Bitte füllen Sie alle Felder aus",
+    "passwords_do_not_match": "Kennwörter stimmen nicht überein"
+  },
+  "tigris_file_preview": {
+    "folder_not_selected": "Ordner nicht ausgewählt",
+    "the_file_is_saved_in": "Die Datei wird gespeichert in",
+    "file_retrieval_error": "Fehler beim Abrufen von Dateien"
+  },
+  "job_application_form": {
+    "title_enter_name": "Bitte geben Sie Ihren Namen ein",
+    "previous_step": "Vorheriger Schritt",
+    "select_a_file": "Wählen Sie eine Datei aus",
+    "title_request_success": "Ihre Anfrage wurde erfolgreich gespeichert und wird von uns schnellstmöglich bearbeitet",
+    "title_enter_phone": "Bitte geben Sie Ihre Telefonnummer und E-Mail-Adresse ein",
+    "title_enter_profession": "Bitte geben Sie den gewünschten Beruf ein",
+    "title_ask_for_download": "Möchten Sie Ihren Lebenslauf hochladen?",
+    "yes_upload": "Ja, hochladen...",
+    "file_not_selected": "Datei nicht ausgewählt",
+    "search_in": "Suche in",
+    "button_upload_cv": "Ja, Lebenslauf hochladen",
+    "description_ask_for_download": "Wir arrangieren es für Sie!",
+    "welcom": "Welcom",
+    "description_create_account": "Mit diesen Informationen machen wir uns an die Arbeit für Sie. Klopfen sie an?",
+    "next_step": "Ja, der nächste Schritt!",
+    "failed_upload_resume": "Lebenslauf kann nicht verarbeitet werden",
+    "message_user_exists": " Diese E-Mail-Adresse wird bereits verwendet. Bitte melden Sie sich an oder gehen Sie zurück und ändern Sie Ihre E-Mail-Adresse",
+    "description_email_confirmation": "Eine E-Mail mit einem Bestätigungscode wurde an die angegebene E-Mail-Adresse gesendet. Kopieren Sie den Code und geben Sie ihn in das Feld unten ein",
+    "email_confirmation": "Sie müssen die E-Mail-Adresse des Benutzers überprüfen!",
+    "title_input_confirmation_code": "Bestätigungscode eingeben",
+    "button_title_confirm_email_address": "E-Mail-Adresse bestätigen",
+    "title_profession_page": "Wonach suchen Sie?",
+    "description_profession_page": "Welche Funktionen bevorzugen Sie?",
+    "failed_parsed_resume": "Ihr Lebenslauf wurde analysiert, aber es wurden keine Daten darin gefunden. Versuchen Sie es mit einem anderen Lebenslauf",
+    "name_list_functions": "Ausgewählte Funktionen",
+    "no_profession_selected": "Keine Funktionen ausgewählt. Bitte fügen Sie eine Funktion hinzu ",
+    "max_number_of_professions": " Es ist nicht möglich, mehr als 5 Berufe einzutreten",
+    "button_i_chose_features": "Ich habe Funktionen ausgewählt",
+    "title_finish_page": "Gut gemacht!",
+    "description_finish_page": "Wir machen uns an die Arbeit für Sie!"
+  },
+  "close": "Schließen",
+  "calendar_screen": {
+    "planned_shifts": "Geplante Schichten",
+    "today": "Heute ",
+    "planned": "Geplant",
+    "available": "Verfügbar",
+    "description": "Beschreibung",
+    "location": "Ort",
+    "ask_acceptance": "Serviceannahme?",
+    "error": "Anforderung konnte nicht verarbeitet werden",
+    "weekdays": {
+      "monday": "M",
+      "tuesday": "D",
+      "wednesday": "M",
+      "thursday": "D",
+      "friday": "F",
+      "saturday": "S",
+      "sunday": "S"
+    }
+  },
+  "loading_text": "  laden.",
+  "no_internet_connection": "Keine Internetverbindung",
+  "edit_document": {
+    "share_with": "Geteilt mit:",
+    "yes": "Ja",
+    "no": "Nein",
+    "not_share": "Es ist nicht möglich, mit dieser Agentur zu teilen"
+  },
+  "button_download": "Herunterladen",
+  "contact": "Kontakt",
+  "upload_file": "Datei hochladen",
+  "error_message_application": "Es ist ein Fehler aufgetreten. Wenden Sie sich an Ihre Agentur oder an den Support",
+  "no_file_selected": "Datei nicht ausgewählt"
+}

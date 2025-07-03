@@ -1,0 +1,1 @@
+[{"type":{"import":"package:blocs/src/reg_pin_code_bloc/reg_pin_code_bloc.dart","name":"RegPinCodeBloc","isNullable":false},"typeImpl":{"import":"package:blocs/src/reg_pin_code_bloc/reg_pin_code_bloc.dart","name":"RegPinCodeBloc","isNullable":false},"isAsync":false,"preResolve":false,"injectableType":0,"dependsOn":[],"environments":[],"dependencies":[],"constructorName":""}]

@@ -1,0 +1,21 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'failure.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+ApiResponseFailureModel _$ApiResponseFailureModelFromJson(
+        Map<String, dynamic> json) =>
+    ApiResponseFailureModel(
+      json['error'] as String? ?? '',
+      json['error_description'] as String? ?? '',
+    );
+
+Map<String, dynamic> _$ApiResponseFailureModelToJson(
+        ApiResponseFailureModel instance) =>
+    <String, dynamic>{
+      'error': instance.error,
+      'error_description': instance.errorDescription,
+    };

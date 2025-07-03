@@ -1,0 +1,34 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'projects_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_ProjectsDataModel _$$_ProjectsDataModelFromJson(Map<String, dynamic> json) =>
+    _$_ProjectsDataModel(
+      id: json['id'] as String,
+      name: json['name'] as String,
+      acceptedWork: json['acceptedWork'] as bool,
+      isDeleted: json['isDeleted'] as bool,
+      sfRecordId: json['sfRecordId'] as String,
+      activeProject: json['activeProject'] as bool,
+      country: json['country'] as String,
+      createdAt: json['createdAt'] as String,
+      companyId: json['companyId'] as String,
+    );
+
+Map<String, dynamic> _$$_ProjectsDataModelToJson(
+        _$_ProjectsDataModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+      'acceptedWork': instance.acceptedWork,
+      'isDeleted': instance.isDeleted,
+      'sfRecordId': instance.sfRecordId,
+      'activeProject': instance.activeProject,
+      'country': instance.country,
+      'createdAt': instance.createdAt,
+      'companyId': instance.companyId,
+    };

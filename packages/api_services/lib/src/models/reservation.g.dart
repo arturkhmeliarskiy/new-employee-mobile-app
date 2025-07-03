@@ -1,0 +1,64 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'reservation.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Reservation _$ReservationFromJson(Map<String, dynamic> json) => Reservation(
+      json['id'] as String?,
+      json['aDVBij'] as String?,
+      json['fDBij'] as String?,
+      json['kVBij'] as String?,
+      json['tvTBij'] as String?,
+      json['vGBij'] as String?,
+      json['vDbBij'] as String?,
+      json['vDwBij'] as String?,
+      json['aDVAf'] as String?,
+      json['fDAf'] as String?,
+      json['kVAf'] as String?,
+      json['tvTAf'] as String?,
+      json['vGAf'] as String?,
+      json['vDbAf'] as String?,
+      json['vDwAf'] as String?,
+      json['averageSalary'] as String?,
+      json['wDC'] as String?,
+      json['isGetLEorg'] as bool?,
+      json['sfOrgId'] as String?,
+      json['sfLEId'] as String?,
+      json['isDeleted'] as bool?,
+      json['sfRecordId'] as String?,
+      json['aggregateSum'] as String?,
+      json['createdAt'] as String?,
+      json['timesheetId'] as String?,
+    );
+
+Map<String, dynamic> _$ReservationToJson(Reservation instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'aDVBij': instance.aDVBij,
+      'fDBij': instance.fDBij,
+      'kVBij': instance.kVBij,
+      'tvTBij': instance.tvTBij,
+      'vGBij': instance.vGBij,
+      'vDbBij': instance.vDbBij,
+      'vDwBij': instance.vDwBij,
+      'aDVAf': instance.aDVAf,
+      'fDAf': instance.fDAf,
+      'kVAf': instance.kVAf,
+      'tvTAf': instance.tvTAf,
+      'vGAf': instance.vGAf,
+      'vDbAf': instance.vDbAf,
+      'vDwAf': instance.vDwAf,
+      'averageSalary': instance.averageSalary,
+      'wDC': instance.wDC,
+      'isGetLEorg': instance.isGetLEorg,
+      'sfOrgId': instance.sfOrgId,
+      'sfLEId': instance.sfLEId,
+      'isDeleted': instance.isDeleted,
+      'sfRecordId': instance.sfRecordId,
+      'aggregateSum': instance.aggregateSum,
+      'createdAt': instance.createdAt,
+      'timesheetId': instance.timesheetId,
+    };

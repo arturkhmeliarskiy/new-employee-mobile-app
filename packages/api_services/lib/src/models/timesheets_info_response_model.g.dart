@@ -1,0 +1,25 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'timesheets_info_response_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+TimesheetsInfoResponseModel _$TimesheetsInfoResponseModelFromJson(
+        Map<String, dynamic> json) =>
+    TimesheetsInfoResponseModel(
+      json['code'] as int?,
+      (json['timesheets'] as List<dynamic>?)
+          ?.map((e) => Timesheets.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      json['totalCount'] as int?,
+    );
+
+Map<String, dynamic> _$TimesheetsInfoResponseModelToJson(
+        TimesheetsInfoResponseModel instance) =>
+    <String, dynamic>{
+      'code': instance.code,
+      'timesheets': instance.timesheets,
+      'totalCount': instance.totalCount,
+    };

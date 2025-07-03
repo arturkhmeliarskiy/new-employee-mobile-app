@@ -1,0 +1,35 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'agency_files_info.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+AgencyFilesInfo _$AgencyFilesInfoFromJson(Map<String, dynamic> json) =>
+    AgencyFilesInfo(
+      json['id'] as String?,
+      json['sfFileId'] as String?,
+      json['sfRecordId'] as String?,
+      json['name'] as String?,
+      json['type'] as String?,
+      json['isAttached'] as bool?,
+      json['expirationDate'] as String?,
+      json['size'] as int?,
+      json['createdAt'] as String?,
+      json['employeeId'] as String?,
+    );
+
+Map<String, dynamic> _$AgencyFilesInfoToJson(AgencyFilesInfo instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'sfFileId': instance.sfFileId,
+      'sfRecordId': instance.sfRecordId,
+      'name': instance.name,
+      'type': instance.type,
+      'isAttached': instance.isAttached,
+      'expirationDate': instance.expirationDate,
+      'size': instance.size,
+      'createdAt': instance.createdAt,
+      'employeeId': instance.employeeId,
+    };

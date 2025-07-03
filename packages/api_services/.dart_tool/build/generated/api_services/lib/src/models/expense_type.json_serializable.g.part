@@ -1,0 +1,44 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+ExpenseType _$ExpenseTypeFromJson(Map<String, dynamic> json) => ExpenseType(
+      json['id'] as String?,
+      json['name'] as String?,
+      json['expensesPrice'] as String?,
+      json['invoicePercentage'] as int?,
+      json['wagePercentage'] as int?,
+      json['recordTypeSFName'] as String?,
+      json['tax'] as String?,
+      json['payoutPer'] as String?,
+      json['units'] as String?,
+      json['type'] as String?,
+      json['sfOrgId'] as String?,
+      json['isGetLEorg'] as bool?,
+      json['sfLEId'] as String?,
+      json['sfRecordId'] as String?,
+      json['isDeleted'] as bool?,
+      json['vergoedingInhouding'] as String?,
+      json['createdAt'] as String?,
+    );
+
+Map<String, dynamic> _$ExpenseTypeToJson(ExpenseType instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+      'expensesPrice': instance.expensesPrice,
+      'invoicePercentage': instance.invoicePercentage,
+      'wagePercentage': instance.wagePercentage,
+      'recordTypeSFName': instance.recordTypeSFName,
+      'tax': instance.tax,
+      'payoutPer': instance.payoutPer,
+      'units': instance.units,
+      'type': instance.type,
+      'sfOrgId': instance.sfOrgId,
+      'isGetLEorg': instance.isGetLEorg,
+      'sfLEId': instance.sfLEId,
+      'sfRecordId': instance.sfRecordId,
+      'isDeleted': instance.isDeleted,
+      'vergoedingInhouding': instance.vergoedingInhouding,
+      'createdAt': instance.createdAt,
+    };

@@ -1,0 +1,23 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'payslips_response_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+PayslipsResponseModel _$PayslipsResponseModelFromJson(
+        Map<String, dynamic> json) =>
+    PayslipsResponseModel(
+      json['count'] as int,
+      (json['payslips'] as List<dynamic>)
+          .map((e) => PayslipsInfo.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
+Map<String, dynamic> _$PayslipsResponseModelToJson(
+        PayslipsResponseModel instance) =>
+    <String, dynamic>{
+      'count': instance.count,
+      'payslips': instance.payslips,
+    };

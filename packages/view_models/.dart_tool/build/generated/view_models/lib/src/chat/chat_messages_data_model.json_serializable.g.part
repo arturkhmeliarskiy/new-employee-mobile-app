@@ -1,0 +1,47 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_ChatMessagesDataModel _$$_ChatMessagesDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_ChatMessagesDataModel(
+      id: json['id'] as String,
+      type: json['type'] as String,
+      fileName: json['fileName'] as String,
+      content: json['content'] as String,
+      senderId: json['senderId'] as String,
+      isReadByEmployee: json['isReadByEmployee'] as bool,
+      isReadByCompany: json['isReadByCompany'] as bool,
+      isReadByAgency: json['isReadByAgency'] as bool,
+      externalMessengerType: json['externalMessengerType'] as String,
+      sfRecordId: json['sfRecordId'] as String,
+      clientSfId: json['clientSfId'] as String,
+      status: json['status'] as String,
+      externalMessageRaw: json['externalMessageRaw'] as String,
+      createdAt: json['createdAt'] as String,
+      updatedAt: json['updatedAt'] as String,
+      chatGroupId: json['chatGroupId'] as String,
+      chatMessageUserId: json['chatMessageUserId'] as String,
+    );
+
+Map<String, dynamic> _$$_ChatMessagesDataModelToJson(
+        _$_ChatMessagesDataModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'type': instance.type,
+      'fileName': instance.fileName,
+      'content': instance.content,
+      'senderId': instance.senderId,
+      'isReadByEmployee': instance.isReadByEmployee,
+      'isReadByCompany': instance.isReadByCompany,
+      'isReadByAgency': instance.isReadByAgency,
+      'externalMessengerType': instance.externalMessengerType,
+      'sfRecordId': instance.sfRecordId,
+      'clientSfId': instance.clientSfId,
+      'status': instance.status,
+      'externalMessageRaw': instance.externalMessageRaw,
+      'createdAt': instance.createdAt,
+      'updatedAt': instance.updatedAt,
+      'chatGroupId': instance.chatGroupId,
+      'chatMessageUserId': instance.chatMessageUserId,
+    };

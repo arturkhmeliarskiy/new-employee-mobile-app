@@ -1,0 +1,98 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+TimesheetsResponseModel _$TimesheetsResponseModelFromJson(
+        Map<String, dynamic> json) =>
+    TimesheetsResponseModel(
+      json['code'] as int?,
+      json['message'] as String?,
+      (json['tarrifs'] as List<dynamic>?)
+          ?.map((e) => Tarifs.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      (json['pop'] as List<dynamic>?)
+          ?.map((e) => Pop.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      (json['approvalInfo'] as List<dynamic>?)
+          ?.map((e) => AprovalInfo.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      (json['projects'] as List<dynamic>?)
+          ?.map((e) => Projects.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      (json['contracts'] as List<dynamic>?)
+          ?.map((e) => Contracts.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      json['contactSetting'] == null
+          ? null
+          : ContactSetting.fromJson(
+              json['contactSetting'] as Map<String, dynamic>),
+      json['timesheet'] == null
+          ? null
+          : Timesheet.fromJson(json['timesheet'] as Map<String, dynamic>),
+      (json['hours'] as List<dynamic>?)
+          ?.map((e) => Hours.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      json['wmls'] as Map<String, dynamic>?,
+      json['uitzending'] == null
+          ? null
+          : Uitzending.fromJson(json['uitzending'] as Map<String, dynamic>),
+      (json['agency'] as List<dynamic>?)
+          ?.map((e) => Agency.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      json['totalreservation'] == null
+          ? null
+          : TotalReservation.fromJson(
+              json['totalreservation'] as Map<String, dynamic>),
+      (json['reservation'] as List<dynamic>?)
+          ?.map((e) => Reservation.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      (json['onkostenregels'] as List<dynamic>?)
+          ?.map((e) => OnkostenRegels.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      (json['reservationHours'] as List<dynamic>?)
+          ?.map((e) => ReservationHours.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      (json['wdcOnkostenregel'] as List<dynamic>?)
+          ?.map((e) => WdcOnkostenregel.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      (json['tariffAssignmentRules'] as List<dynamic>?)
+          ?.map(
+              (e) => TariffAssignmentRules.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    )
+      ..expensesType = (json['expensesType'] as List<dynamic>?)
+          ?.map((e) => ExpenseType.fromJson(e as Map<String, dynamic>))
+          .toList()
+      ..cpcExpenseTypeConf = (json['cpcExpenseTypeConf'] as List<dynamic>?)
+          ?.map((e) => CpcExpenseTypeConf.fromJson(e as Map<String, dynamic>))
+          .toList()
+      ..expenses = (json['expenses'] as List<dynamic>?)
+          ?.map((e) => Expense.fromJson(e as Map<String, dynamic>))
+          .toList();
+
+Map<String, dynamic> _$TimesheetsResponseModelToJson(
+        TimesheetsResponseModel instance) =>
+    <String, dynamic>{
+      'code': instance.code,
+      'message': instance.message,
+      'expensesType': instance.expensesType,
+      'tarrifs': instance.tarrifs,
+      'pop': instance.pop,
+      'approvalInfo': instance.approvalInfo,
+      'cpcExpenseTypeConf': instance.cpcExpenseTypeConf,
+      'projects': instance.projects,
+      'contracts': instance.contracts,
+      'wmls': instance.wmls,
+      'contactSetting': instance.contactSetting,
+      'expenses': instance.expenses,
+      'timesheet': instance.timesheet,
+      'hours': instance.hours,
+      'uitzending': instance.uitzending,
+      'agency': instance.agency,
+      'totalreservation': instance.totalreservation,
+      'reservation': instance.reservation,
+      'onkostenregels': instance.onkostenregels,
+      'reservationHours': instance.reservationHours,
+      'wdcOnkostenregel': instance.wdcOnkostenregel,
+      'tariffAssignmentRules': instance.tariffAssignmentRules,
+    };

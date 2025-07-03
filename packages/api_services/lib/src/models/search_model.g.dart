@@ -1,0 +1,26 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'search_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+SearchModel _$SearchModelFromJson(Map<String, dynamic> json) => SearchModel(
+      json['id'] as String?,
+      json['name'] as String?,
+      json['altLabels'] as String?,
+      json['code'] as String?,
+      json['iscoGroup'] as int?,
+      json['language'] as String?,
+    );
+
+Map<String, dynamic> _$SearchModelToJson(SearchModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+      'altLabels': instance.altLabels,
+      'code': instance.code,
+      'iscoGroup': instance.iscoGroup,
+      'language': instance.language,
+    };

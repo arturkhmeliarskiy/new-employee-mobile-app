@@ -1,0 +1,361 @@
+{
+  "language": "Taal",
+  "login_screen": {
+    "password_textfield_hint": "Wachtwoord",
+    "forgot_password_button": "Wachtwoord vergeten?",
+    "missing_credentails": "Ontbrekende credentails",
+    "username_textfield_hint": "Gebruikersnaam",
+    "bottom_button": "Log in"
+  },
+  "pin_code_screen": {
+    "fail_pin_code": "Ongeldige pincode",
+    "forgot_pin": "Pin vergeten?",
+    "pin_code_disabled": "PINCODE uitgeschakeld"
+  },
+  "home_screen": {
+    "title_exit_app": "App afsluiten",
+    "question_log_out_of_the_app": "Wil je een App afsluiten?\n",
+    "exit_app_dialog_ok": "OK",
+    "hello": "Hallo",
+    "block_header1": "Overzicht",
+    "hours_worked": "Gewerkte uren",
+    "accrued_holiday_pay": "Opgebouwd vakantiegeld",
+    "accrued_holiday_hours": "Opgebouwde vakantie-uren",
+    "my_agencies": "Mijn agentschappen",
+    "total": "totaal",
+    "month": "maand",
+    "looking_for_a_job": "Op zoek naar een baan?",
+    "button_yes": "Ja",
+    "button_show_more": "Toon meer"
+  },
+  "week": "week",
+  "news": "Nieuws",
+  "no_news": "Geen nieuws",
+  "default": "verstek",
+  "no_documents_available": "Geen documenten beschikbaar",
+  "agency_related_info_screen": {
+    "days_until_payout": "Dagen tot uitbetaling",
+    "average_worked_hours": "Gemiddelde gewerkte uren",
+    "my_employers": "Mijn werkgevers",
+    "no_employers": "Geen werkgevers",
+    "no_documents": "Geen documenten",
+    "not_specified": "Niet gespecificeerd"
+  },
+  "agency_contact_modal_window": {
+    "chat": "Babbelen",
+    "or": "of"
+  },
+  "chat_screen": {
+    "error_message_was_not_sent": "Fout. Bericht is niet verzonden"
+  },
+  "info_modal_window": {
+    "your_contact": "Uw contactpersoon",
+    "custom_text_field": "Beschikbaar van 6-8 per dag"
+  },
+  "hours": "Uren",
+  "costs": "Kosten",
+  "submitted_timesheet_screen": {
+    "function": "Functie",
+    "week_nr": "Week nr.",
+    "start_date": "Start date",
+    "end_date": "Einddatum",
+    "question_confirm": "Bevestig de opmerking?",
+    "confirm": "Bevestigen",
+    "question_decline": "Waarom wilt u deze urenstaat weigeren?",
+    "reason_for_refusal": "Gelieve de reden van afwijzing te vermelden",
+    "decline": "Afnemen",
+    "no_timesheets": "Geen roosters"
+  },
+  "regestration_hours_selection": {
+    "standart_hours": "Standart uren",
+    "from_to_hours": "Van tot uren"
+  },
+  "registration_timesheets_screen": {
+    "via": "weg",
+    "select_week": "Selecteer week",
+    "hour_type_not_selected": "Uurtype niet geselecteerd",
+    "add_registration": "Registratie toevoegen ",
+    "approve": "Goedkeuren",
+    "total_hours": "Totaal aantal uren",
+    "total_costs": "Totale kosten",
+    "reject": "Verwerpen",
+    "send": "Verzenden",
+    "project_not_selected": "Project niet geselecteerd",
+    "message_info1": "Som van alle uren voor één dag, moet kleiner zijn dan of gelijk zijn aan ",
+    "message_info2": "Som van alle uren voor de week, moet kleiner zijn dan of gelijk zijn aan ",
+    "message_info3": "De uren kunnen niet geregistreerd worden. Neem contact op met het bureau",
+    "message_info4": "Waarde kan niet groter zijn dan",
+    "message_info5": "Waarde kan niet minder zijn dan",
+    "message_info6": "De totale kosten mogen niet hoger zijn dan",
+    "message_info7": "De totale kosten mogen niet lager zijn dan",
+    "message_info8": "Totaal aantal eenheden mag niet groter zijn dan",
+    "message_info9": "Het totale aantal eenheden mag niet minder zijn dan",
+    "message_info10_1": "Niet meer dan",
+    "message_info10_2": "kosten per week",
+    "posting_period": "De urenstaat kan alleen tijdens de periode worden gemaakt",
+    "tariff_is_not_valid": "tarief is niet geldig gedurende deze periode",
+    "message_info11": "Het aantal uren in dit tempo per dag moet kleiner zijn dan of gelijk zijn aan",
+    "successfully_saved": "Rooster succesvol opgeslagen",
+    "error_saved": "Fout bij het opslaan van roosters",
+    "project_required": "Project vereist",
+    "message_required_hours": "U hebt niet alle benodigde uren voltooid",
+    "empty_hours": "vul de velden in voor het aantal uren",
+    "key2ValuesMap_VDw": "Wettelijke vakantiedagen",
+    "key2ValuesMap_VDb": "Bovenstaande wettelijke feestdagen",
+    "key2ValuesMap_VDt": "Totale vakantie",
+    "key2ValuesMap_FD": "Vakantie",
+    "key2ValuesMap_KV": "Kurze abwesenheit",
+    "key2ValuesMap_ADV": "Kortere werktijden",
+    "key2ValuesMap_TvT": "Compensatie uren",
+    "key2ValuesMap_VG": "Vakantiegeld",
+    "key2ValuesMap_WDC": "WDC",
+    "message_info12": "WML vult niet in op volgende data",
+    "message_info13": "Uurtarief wordt niet ingevuld op volgende datums",
+    "message_info14": "Uurtarief minder toegestaan wml op volgende datums",
+    "message_info15": "Los deze problemen op, zodat u deze urenstaat kunt goedkeuren",
+    "message_info16": "Voor huidige werknemer niet ingevulde verjaardagsdatum. WML kan niet worden berekend",
+    "message_info17": "Je kunt geen uren invullen voor deze week. Neem dan contact op met",
+    "message_info18": "Kies tarief",
+    "message_info19": "Kies een tarief en voeg het gewenste aantal uren toe",
+    "message_info20": "Kostentarief niet geselecteerd",
+    "message_info21": "Starttijd kan niet groter zijn eindtijd",
+    "message_info22": "Tijd is al in gebruik",
+    "message_info23": "De werkdag is van {1} tot {2}. De pauze moet binnen deze tijden vallen.",
+    "is_not_select_type_reserv": "Reserveringstype niet geselecteerd"
+  },
+  "card_timesheet_reservation": {
+    "reservation": "Reservering",
+    "available": "Beschikbaar",
+    "available_balance": "Beschikbaar saldo"
+  },
+  "monday": "Maandag",
+  "tuesday": "Dinsdag",
+  "wednesday": "Woensdag",
+  "thursday": "Donderdag",
+  "friday": "Vrijdag",
+  "saturday": "Zaterdag",
+  "sunday": "Zondag",
+  "sheet_modal_window": {
+    "view_add_sheets": "Uren registreren",
+    "select_employer": "Selecteer werkgever"
+  },
+  "types_registration": {
+    "new_registration": "Nieuwe registratie",
+    "ritten": "Ritten",
+    "expenses": "Expenses",
+    "reservations": "Reservations"
+  },
+  "show_contact_information": "Contactgegevens weergeven",
+  "payslips_screen": {
+    "message_null_payslips": "Nog geen jaarverslagen beschikbaar",
+    "period": "Periode",
+    "item_drop_down_pay_slips": "Loonstroken",
+    "item_drop_down_annual_statements": "Jaaropgaven"
+  },
+  "profile_screen": {
+    "notifications": "Meldingen",
+    "name_page": "Profiel",
+    "hours_approved": "Uren goedgekeurd",
+    "message_empty_list": "Geen berichten",
+    "notification_dialog_cancel": "Annuleren",
+    "notification_dialog_ok": "Ok",
+    "new_chat_messages": "Nieuwe chatberichten"
+  },
+  "language_modal_window": {
+    "lang_name1": "Engels",
+    "lang_name6": "Roemeense",
+    "lang_name5": "Portugees",
+    "lang_name4": "Nederlands",
+    "lang_name3": "Pools",
+    "lang_name2": "Duits",
+    "message_successfully_saved": "Succesvol opgeslagen"
+  },
+  "back_button_name": "Terug",
+  "settings_modal_window": {
+    "name_page": "Instellingen",
+    "profile": "Profiel",
+    "basic_information": "Basis informatie",
+    "work_preferences": "Werkvoorkeuren",
+    "security": "Veiligheid",
+    "my_documents": "Mijn documenten",
+    "agency_documents": "Gedeeld met jou",
+    "preferences": "Voorkeuren",
+    "logout": "Logout",
+    "ask_for_confirmation": "Wil je uitloggen?",
+    "title_agency_documents": "Gedeelde documenten met jou"
+  },
+  "documents": "Documenten",
+  "language_name": "Dutch",
+  "basic_information_modal_window": {
+    "message_successfully_saved": "Succesvol opgeslagen",
+    "basic_information": "Basis informatie",
+    "change_picture": "Afbeelding wijzigen",
+    "telephone_number": "Telefoonnummer",
+    "profile": {
+      "profile_title": "Profiel",
+      "hint_nick_name": "Bijnaam",
+      "hint_date_of_birth": "Geboortedatum",
+      "hint_nationality": "Nationaliteit",
+      "hint_first_name": "Voornaam",
+      "hint_last_name": "Achternaam"
+    }
+  },
+  "button_cancel": "Annuleren",
+  "button_save": "Redden",
+  "work_preferences_modal_window": {
+    "message_successfully_saved": "Succesvol opgeslagen",
+    "name_page": "Werkpereferences",
+    "hint_desired_salary": "Gewenst salaris",
+    "hint_desired_function": "Gewenste functie",
+    "hint_max_travel_time_minutes": "Max reistijd minuten"
+  },
+  "security_modal_window": {
+    "change_pin_code": "Pincode wijzigen",
+    "change_password": "Wachtwoord wijzigen"
+  },
+  "pin_code_modal_window": {
+    "name_page": "Pincode",
+    "create_pincode": "Pincode aanmaken",
+    "switch_pin_code": "Pincode wisselen",
+    "registration_pin_code_screen": {
+      "title": "Wil je inloggen met pin?",
+      "skip": "Overslaan"
+    }
+  },
+  "password_modal_window": {
+    "message_successfully_saved": "Succesvol opgeslagen",
+    "hint_old_password": "Oud wachtwoord",
+    "hint_new_password": "Nieuw wachtwoord",
+    "hint_confirm_password": "Bevestig wachtwoord"
+  },
+  "my_documents_modal_window": {
+    "message_successfully_saved": "Succesvol opgeslagen",
+    "my_cv": "Mijn CV",
+    "no_my_cv": "Geen CV geupload",
+    "my_personal_documents": "Mijn persoonlijke documenten",
+    "no_my_personal_documents": "Geen persoonlijke documenten",
+    "sharing_with_the_agency": "Delen met het bureau",
+    "add_document": "Document toevoegen ",
+    "title_validity": "Geldigheid",
+    "title_document_type": "Type document",
+    "hint_input_date": "Selecteer een vervaldatum",
+    "hint_type_document": "Selecteer documenttype",
+    "message_type_not_selected": "Documenttype niet geselecteerd"
+  },
+  "bottom_nav_bar_item": {
+    "home": "Thuis",
+    "pay_slips": "Loonstroken",
+    "calendar": "Kalender",
+    "profile": "Profiel"
+  },
+  "reset_password_screen": {
+    "name_page": "Wachtwoord opnieuw instellen",
+    "user_instruction_message": "Voer de gebruikersnaam of het e-mailadres in dat aan uw account is gekoppeld en we sturen een e-mail met instructies om uw wachtwoord opnieuw in te stellen.",
+    "email_textfield_hint": "Gebruikersnaam of e-mailadres",
+    "button_send": "Herstelinstructies verzenden",
+    "check_your_mail": "Check je mail",
+    "user_instruction_message2": "We hebben een instructie voor wachtwoordherstel naar uw e-mail gestuurd.",
+    "button_open_mail_app": "E-mail app openen",
+    "return_to_login": "Terug naar login",
+    "bottom_text": "Geen e-mail ontvangen? Controleer uw spammap of ",
+    "show_no_mail_apps_dialog": {
+      "title": "Open mail-app",
+      "content": "Geen e-mailapps geïnstalleerd",
+      "ok": "OK"
+    },
+    "username": "Gebruikersnaam",
+    "password": "Wachtwoord",
+    "repeat_password": "Herhaal wachtwoord",
+    "save_new_password": "Nieuw wachtwoord opslaan",
+    "input_error_message_mail": "Voer uw gebruikersnaam of e-mailadres in",
+    "another_mail_adress": "probeer een ander e-mailadres"
+  },
+  "initial_screen": {
+    "login": "Inloggen",
+    "create_account": "Account aanmaken",
+    "skip": "Overslaan"
+  },
+  "registration_screen": {
+    "email_adress": "E-mailadres",
+    "next_step": "Volgende stap",
+    "first_name": "Voornaam",
+    "last_name": "Achternaam",
+    "phone_number": "Telefoonnummer",
+    "username": "Gebruikersnaam",
+    "password": "Wachtwoord",
+    "repeat_password": "Herhaal wachtwoord",
+    "create_account": "Account aanmaken",
+    "fields_are_not_filled": "Gelieve alle velden in te vullen",
+    "passwords_do_not_match": "Wachtwoorden komen niet overeen"
+  },
+  "tigris_file_preview": {
+    "folder_not_selected": "Map niet geselecteerd",
+    "the_file_is_saved_in": "Het bestand wordt opgeslagen in",
+    "file_retrieval_error": "Fout bij het ophalen van bestanden"
+  },
+  "job_application_form": {
+    "title_enter_name": "Voer uw naam in",
+    "previous_step": "Vorige stap",
+    "select_a_file": "Selecteer een bestand",
+    "title_request_success": "Uw aanvraag is succesvol opgeslagen en wordt zo snel mogelijk door ons verwerkt",
+    "title_enter_phone": "Voer uw telefoonnummer en e-mailadres in",
+    "title_enter_profession": "Voer het gewenste beroep in",
+    "title_ask_for_download": "Wilt u uw CV uploaden?",
+    "yes_upload": "Ja, uploaden...",
+    "file_not_selected": "Bestand niet geselecteerd",
+    "search_in": "Zoeken in",
+    "button_upload_cv": "Ja, cv uploaden",
+    "description_ask_for_download": "Wij regelen het voor u!",
+    "welcom": "Welkom",
+    "description_create_account": "Met deze informatie gaan wij voor u aan de slag. Kloppen ze?",
+    "next_step": "Ja, de volgende stap!",
+    "failed_upload_resume": "Kan cv niet verwerken",
+    "message_user_exists": " Dit e-mailadres is al in gebruik. Log in of ga terug en wijzig uw e-mailadres",
+    "description_email_confirmation": "Er is een e-mail met een bevestigingscode verzonden naar het opgegeven e-mailadres. Kopieer de code en voer in het onderstaande veld in",
+    "email_confirmation": "Moet het e-mailadres van de gebruiker verifiëren!",
+    "title_input_confirmation_code": "Voer de bevestigingscode in",
+    "button_title_confirm_email_address": "E-mailadres bevestigen",
+    "title_profession_page": "Waar ben je naar op zoek?",
+    "description_profession_page": "Welke functies heeft uw voorkeur?",
+    "failed_parsed_resume": "Uw cv is ontleed, maar er zijn geen gegevens in gevonden. Probeer een ander cv",
+    "name_list_functions": "Geselecteerde functies",
+    "no_profession_selected": "Geen functies geselecteerd. Voeg een functie toe ",
+    "max_number_of_professions": " Het is niet mogelijk om meer dan 5 beroepen in te voeren",
+    "button_i_chose_features": "Ik heb gekozen voor functies",
+    "title_finish_page": "Goed bezig!",
+    "description_finish_page": "Wij gaan voor u aan de slag!"
+  },
+  "close": "Sluiten",
+  "calendar_screen": {
+    "planned_shifts": "Geplande diensten",
+    "today": "Vandaag ",
+    "planned": "Planmatig",
+    "available": "Beschikbaar",
+    "description": "Beschrijving",
+    "location": "Plaats",
+    "ask_acceptance": "Service acceptatie?",
+    "error": "Aanvraag kan niet worden verwerkt",
+    "weekdays": {
+      "monday": "M",
+      "tuesday": "D",
+      "wednesday": "W",
+      "thursday": "D",
+      "friday": "V",
+      "saturday": "Z",
+      "sunday": "Z"
+    }
+  },
+  "loading_text": "  laden.",
+  "no_internet_connection": "Geen internetverbinding",
+  "edit_document": {
+    "share_with": "Gedeeld met:",
+    "yes": "Ja",
+    "no": "Nee",
+    "not_share": "Niet mogelijk om te delen met dit bureau"
+  },
+  "button_download": "Downloaden",
+  "contact": "Contact",
+  "upload_file": "Bestand uploaden",
+  "error_message_application": "Er is een fout opgetreden. Neem contact op met uw bureau of neem contact op met de ondersteuning",
+  "no_file_selected": "Bestand niet geselecteerd"
+}

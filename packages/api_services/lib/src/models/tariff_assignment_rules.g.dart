@@ -1,0 +1,21 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'tariff_assignment_rules.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+TariffAssignmentRules _$TariffAssignmentRulesFromJson(
+        Map<String, dynamic> json) =>
+    TariffAssignmentRules(
+      json['validFrom'] as String?,
+      json['usedUnravelingTypes'] as String?,
+    );
+
+Map<String, dynamic> _$TariffAssignmentRulesToJson(
+        TariffAssignmentRules instance) =>
+    <String, dynamic>{
+      'validFrom': instance.validFrom,
+      'usedUnravelingTypes': instance.usedUnravelingTypes,
+    };

@@ -1,0 +1,21 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'base64_image_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_Base64ImageDataModel _$$_Base64ImageDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_Base64ImageDataModel(
+      code: json['code'] as int?,
+      file: json['file'] as String?,
+    );
+
+Map<String, dynamic> _$$_Base64ImageDataModelToJson(
+        _$_Base64ImageDataModel instance) =>
+    <String, dynamic>{
+      'code': instance.code,
+      'file': instance.file,
+    };

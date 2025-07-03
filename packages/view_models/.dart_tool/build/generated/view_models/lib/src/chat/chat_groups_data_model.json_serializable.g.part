@@ -1,0 +1,37 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_ChatGroupsDataModel _$$_ChatGroupsDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_ChatGroupsDataModel(
+      id: json['id'] as String,
+      employeeGroupName: json['employeeGroupName'] as String,
+      companyGroupName: json['companyGroupName'] as String,
+      agencyGroupName: json['agencyGroupName'] as String,
+      isActive: json['isActive'] as bool,
+      subject: json['subject'] as String,
+      onlyExternalMessages: json['onlyExternalMessages'] as bool,
+      createdAt: json['createdAt'] as String,
+      updatedAt: json['updatedAt'] as String,
+      agencyId: json['agencyId'] as String,
+      employeeId: json['employeeId'] as String,
+      companyId: json['companyId'] as String,
+    );
+
+Map<String, dynamic> _$$_ChatGroupsDataModelToJson(
+        _$_ChatGroupsDataModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'employeeGroupName': instance.employeeGroupName,
+      'companyGroupName': instance.companyGroupName,
+      'agencyGroupName': instance.agencyGroupName,
+      'isActive': instance.isActive,
+      'subject': instance.subject,
+      'onlyExternalMessages': instance.onlyExternalMessages,
+      'createdAt': instance.createdAt,
+      'updatedAt': instance.updatedAt,
+      'agencyId': instance.agencyId,
+      'employeeId': instance.employeeId,
+      'companyId': instance.companyId,
+    };

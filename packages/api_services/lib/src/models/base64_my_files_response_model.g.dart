@@ -1,0 +1,21 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'base64_my_files_response_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Base64MyFilesResponseModel _$Base64MyFilesResponseModelFromJson(
+        Map<String, dynamic> json) =>
+    Base64MyFilesResponseModel(
+      json['code'] as int?,
+      json['content'] as String?,
+    );
+
+Map<String, dynamic> _$Base64MyFilesResponseModelToJson(
+        Base64MyFilesResponseModel instance) =>
+    <String, dynamic>{
+      'code': instance.code,
+      'content': instance.content,
+    };

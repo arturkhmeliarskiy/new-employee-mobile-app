@@ -1,0 +1,20 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'worked_hours.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+WorkedHours _$WorkedHoursFromJson(Map<String, dynamic> json) => WorkedHours(
+      (json['week'] as num?)?.toDouble(),
+      (json['month'] as num?)?.toDouble(),
+      (json['total'] as num?)?.toDouble(),
+    );
+
+Map<String, dynamic> _$WorkedHoursToJson(WorkedHours instance) =>
+    <String, dynamic>{
+      'week': instance.week,
+      'month': instance.month,
+      'total': instance.total,
+    };

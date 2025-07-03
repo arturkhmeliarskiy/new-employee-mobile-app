@@ -1,0 +1,67 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'reservation_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_ReservationDataModel _$$_ReservationDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_ReservationDataModel(
+      id: json['id'] as String,
+      aDVBij: json['aDVBij'] as String,
+      fDBij: json['fDBij'] as String,
+      kVBij: json['kVBij'] as String,
+      tvTBij: json['tvTBij'] as String,
+      vGBij: json['vGBij'] as String,
+      vDbBij: json['vDbBij'] as String,
+      vDwBij: json['vDwBij'] as String,
+      aDVAf: json['aDVAf'] as String,
+      fDAf: json['fDAf'] as String,
+      kVAf: json['kVAf'] as String,
+      tvTAf: json['tvTAf'] as String,
+      vGAf: json['vGAf'] as String,
+      vDbAf: json['vDbAf'] as String,
+      vDwAf: json['vDwAf'] as String,
+      averageSalary: json['averageSalary'] as String,
+      wDC: json['wDC'] as String,
+      isGetLEorg: json['isGetLEorg'] as bool,
+      sfOrgId: json['sfOrgId'] as String,
+      sfLEId: json['sfLEId'] as String,
+      isDeleted: json['isDeleted'] as bool,
+      sfRecordId: json['sfRecordId'] as String,
+      aggregateSum: json['aggregateSum'] as String,
+      createdAt: json['createdAt'] as String,
+      timesheetId: json['timesheetId'] as String,
+    );
+
+Map<String, dynamic> _$$_ReservationDataModelToJson(
+        _$_ReservationDataModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'aDVBij': instance.aDVBij,
+      'fDBij': instance.fDBij,
+      'kVBij': instance.kVBij,
+      'tvTBij': instance.tvTBij,
+      'vGBij': instance.vGBij,
+      'vDbBij': instance.vDbBij,
+      'vDwBij': instance.vDwBij,
+      'aDVAf': instance.aDVAf,
+      'fDAf': instance.fDAf,
+      'kVAf': instance.kVAf,
+      'tvTAf': instance.tvTAf,
+      'vGAf': instance.vGAf,
+      'vDbAf': instance.vDbAf,
+      'vDwAf': instance.vDwAf,
+      'averageSalary': instance.averageSalary,
+      'wDC': instance.wDC,
+      'isGetLEorg': instance.isGetLEorg,
+      'sfOrgId': instance.sfOrgId,
+      'sfLEId': instance.sfLEId,
+      'isDeleted': instance.isDeleted,
+      'sfRecordId': instance.sfRecordId,
+      'aggregateSum': instance.aggregateSum,
+      'createdAt': instance.createdAt,
+      'timesheetId': instance.timesheetId,
+    };

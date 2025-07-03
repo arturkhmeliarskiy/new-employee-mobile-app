@@ -1,0 +1,48 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'chat_messages.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+ChatMessages _$ChatMessagesFromJson(Map<String, dynamic> json) => ChatMessages(
+      json['id'] as String?,
+      json['type'] as String?,
+      json['fileName'] as String?,
+      json['content'] as String?,
+      json['senderId'] as String?,
+      json['isReadByEmployee'] as bool?,
+      json['isReadByCompany'] as bool?,
+      json['isReadByAgency'] as bool?,
+      json['externalMessengerType'] as String?,
+      json['sfRecordId'] as String?,
+      json['clientSfId'] as String?,
+      json['status'] as String?,
+      json['externalMessageRaw'] as String?,
+      json['createdAt'] as String?,
+      json['updatedAt'] as String?,
+      json['chatGroupId'] as String?,
+      json['chatMessageUserId'] as String?,
+    );
+
+Map<String, dynamic> _$ChatMessagesToJson(ChatMessages instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'type': instance.type,
+      'fileName': instance.fileName,
+      'content': instance.content,
+      'senderId': instance.senderId,
+      'isReadByEmployee': instance.isReadByEmployee,
+      'isReadByCompany': instance.isReadByCompany,
+      'isReadByAgency': instance.isReadByAgency,
+      'externalMessengerType': instance.externalMessengerType,
+      'sfRecordId': instance.sfRecordId,
+      'clientSfId': instance.clientSfId,
+      'status': instance.status,
+      'externalMessageRaw': instance.externalMessageRaw,
+      'createdAt': instance.createdAt,
+      'updatedAt': instance.updatedAt,
+      'chatGroupId': instance.chatGroupId,
+      'chatMessageUserId': instance.chatMessageUserId,
+    };

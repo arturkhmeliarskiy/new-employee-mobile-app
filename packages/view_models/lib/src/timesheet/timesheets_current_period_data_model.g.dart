@@ -1,0 +1,27 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'timesheets_current_period_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_TimesheetsCurrentPeriodDataModel
+    _$$_TimesheetsCurrentPeriodDataModelFromJson(Map<String, dynamic> json) =>
+        _$_TimesheetsCurrentPeriodDataModel(
+          id: json['id'] as String,
+          name: json['name'] as String,
+          startDate: json['startDate'] as String,
+          endDate: json['endDate'] as String,
+          status: json['status'] as String,
+        );
+
+Map<String, dynamic> _$$_TimesheetsCurrentPeriodDataModelToJson(
+        _$_TimesheetsCurrentPeriodDataModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+      'startDate': instance.startDate,
+      'endDate': instance.endDate,
+      'status': instance.status,
+    };

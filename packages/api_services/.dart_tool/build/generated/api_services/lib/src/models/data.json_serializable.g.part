@@ -1,0 +1,33 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Data _$DataFromJson(Map<String, dynamic> json) => Data(
+      json['id'] as String?,
+      json['text'] as String?,
+      json['isRead'] as bool?,
+      json['receiverId'] as String?,
+      json['receiverType'] as String?,
+      json['opportunityId'] as String?,
+      json['orgName'] as String?,
+      json['relatedObjectType'] as String?,
+      json['relatedObjectId'] as String?,
+      json['createdAt'] as String?,
+      json['updatedAt'] as String?,
+      json['title'] as String?,
+    );
+
+Map<String, dynamic> _$DataToJson(Data instance) => <String, dynamic>{
+      'id': instance.id,
+      'text': instance.text,
+      'isRead': instance.isRead,
+      'receiverId': instance.receiverId,
+      'receiverType': instance.receiverType,
+      'opportunityId': instance.opportunityId,
+      'orgName': instance.orgName,
+      'relatedObjectType': instance.relatedObjectType,
+      'relatedObjectId': instance.relatedObjectId,
+      'createdAt': instance.createdAt,
+      'updatedAt': instance.updatedAt,
+      'title': instance.title,
+    };

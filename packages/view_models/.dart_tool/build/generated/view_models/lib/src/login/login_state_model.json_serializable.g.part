@@ -1,0 +1,22 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_LoginStateDataModel _$$_LoginStateDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_LoginStateDataModel(
+      code: json['code'] as int,
+      message: json['message'] as String,
+      userDataModel: json['userDataModel'] == null
+          ? null
+          : UserDataModel.fromJson(
+              json['userDataModel'] as Map<String, dynamic>),
+    );
+
+Map<String, dynamic> _$$_LoginStateDataModelToJson(
+        _$_LoginStateDataModel instance) =>
+    <String, dynamic>{
+      'code': instance.code,
+      'message': instance.message,
+      'userDataModel': instance.userDataModel,
+    };

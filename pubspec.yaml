@@ -1,0 +1,79 @@
+name: tigris
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+2
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  api_services:
+    path: packages/api_services
+  app_logger:
+    path: ./packages/app_logger
+  blocs:
+    path: packages/blocs
+  easy_localization: ^3.0.0
+  firebase_core: ^1.13.1
+  firebase_messaging: ^11.4.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_google_places: ^0.3.0
+  flutter_html: ^3.0.0-alpha.5
+  flutter_polyline_points: ^1.0.0
+  get_it: ^7.2.0
+  google_api_headers: ^1.3.0
+  google_maps_webservice: ^0.0.19
+  intl: ^0.19.0
+  local_auth: ^2.1.0
+  logger: ^1.1.0
+  nil: ^1.1.1
+  open_mail_app: ^0.4.5
+  repositories:
+    path: packages/repositories
+  shared:
+    path: packages/shared
+  shared_preferences: ^2.0.15
+  ui_kit:
+    path: packages/ui_kit
+  url_launcher: ^6.1.4
+  view_models:
+    path: packages/view_models
+    
+dev_dependencies:
+  build_runner: ^2.1.11
+  dart_code_metrics: ^4.13.0
+  flutter_lints: ^1.0.4
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/fonts/
+    - assets/languages/
+    - pubspec.yaml
+
+  fonts:
+    - family: Mont
+      fonts:
+        - asset: assets/fonts/Mont-Bold.otf
+        - asset: assets/fonts/Mont-Black.otf
+        - asset: assets/fonts/Mont-Book.otf
+        - asset: assets/fonts/Mont-ExtraLight.otf
+        - asset: assets/fonts/Mont-Hairline.otf
+        - asset: assets/fonts/Mont-Heavy.otf
+        - asset: assets/fonts/Mont-Light.otf
+        - asset: assets/fonts/Mont-Regular.otf
+        - asset: assets/fonts/Mont-SemiBold.otf
+        - asset: assets/fonts/Mont-Thin.otf

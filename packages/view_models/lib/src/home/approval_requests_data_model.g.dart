@@ -1,0 +1,31 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'approval_requests_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_ApprovalRequestDataModel _$$_ApprovalRequestDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_ApprovalRequestDataModel(
+      id: json['id'] as String,
+      status: json['status'] as String,
+      approverType: json['approverType'] as String,
+      approverName: json['approverName'] as String,
+      dateOfApproval: json['dateOfApproval'] as String,
+      comment: json['comment'] as String,
+      employeeApproverId: json['employeeApproverId'] as String,
+    );
+
+Map<String, dynamic> _$$_ApprovalRequestDataModelToJson(
+        _$_ApprovalRequestDataModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'status': instance.status,
+      'approverType': instance.approverType,
+      'approverName': instance.approverName,
+      'dateOfApproval': instance.dateOfApproval,
+      'comment': instance.comment,
+      'employeeApproverId': instance.employeeApproverId,
+    };

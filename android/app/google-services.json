@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "857310880025",
+    "project_id": "tigris-new-employee-app",
+    "storage_bucket": "tigris-new-employee-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857310880025:android:c41f76ab178ce1fb256588",
+        "android_client_info": {
+          "package_name": "com.tigris.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857310880025-4qac3hflbf4761fi206lke89dbjv03qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tigris.app",
+            "certificate_hash": "51082d1868a999620521fdffdfab941c7b50783e"
+          }
+        },
+        {
+          "client_id": "857310880025-b7453rerflka15j697id3e36hau72scg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5P-XBAOLO946PFlcmj78-oiEu9JBDTog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857310880025-b7453rerflka15j697id3e36hau72scg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "857310880025-hkko8nc8qefa9df92puk1okcaln6fbv4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tigris.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

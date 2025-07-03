@@ -1,0 +1,29 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'content.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Content _$ContentFromJson(Map<String, dynamic> json) => Content(
+      json['agencyId'] as String?,
+      json['workedHours'] == null
+          ? null
+          : WorkedHours.fromJson(json['workedHours'] as Map<String, dynamic>),
+      json['accruedReservations'] == null
+          ? null
+          : AccruedReservations.fromJson(
+              json['accruedReservations'] as Map<String, dynamic>),
+      json['averageWorkedHours'] == null
+          ? null
+          : AverageWorkedHours.fromJson(
+              json['averageWorkedHours'] as Map<String, dynamic>),
+    );
+
+Map<String, dynamic> _$ContentToJson(Content instance) => <String, dynamic>{
+      'agencyId': instance.agencyId,
+      'workedHours': instance.workedHours,
+      'accruedReservations': instance.accruedReservations,
+      'averageWorkedHours': instance.averageWorkedHours,
+    };

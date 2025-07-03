@@ -1,0 +1,56 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'job_companies.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+JobCompanies _$JobCompaniesFromJson(Map<String, dynamic> json) => JobCompanies(
+      json['id'] as String?,
+      json['name'] as String?,
+      json['companyName'] as String?,
+      json['firstName'] as String?,
+      json['lastName'] as String?,
+      json['functieName'] as String?,
+      json['startDate'] as String?,
+      json['endDate'] as String?,
+      json['sfRecordId'] as String?,
+      json['agencyId'] as String?,
+      json['employeeId'] as String?,
+      json['approvalClients'] as String?,
+      json['disableEditingTimesheets'] as String?,
+      json['disableTimesheetsEdition'] as bool?,
+      json['loonBijUitzending'] as String?,
+      json['projectName'] as String?,
+      json['responsibleClientPhone'] as String?,
+      json['responsibleClientEmail'] as String?,
+      json['contactInfo'] as String?,
+      json['phone'] as String?,
+      json['email'] as String?,
+    );
+
+Map<String, dynamic> _$JobCompaniesToJson(JobCompanies instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+      'companyName': instance.companyName,
+      'firstName': instance.firstName,
+      'lastName': instance.lastName,
+      'functieName': instance.functieName,
+      'startDate': instance.startDate,
+      'endDate': instance.endDate,
+      'sfRecordId': instance.sfRecordId,
+      'agencyId': instance.agencyId,
+      'employeeId': instance.employeeId,
+      'approvalClients': instance.approvalClients,
+      'disableEditingTimesheets': instance.disableEditingTimesheets,
+      'disableTimesheetsEdition': instance.disableTimesheetsEdition,
+      'loonBijUitzending': instance.loonBijUitzending,
+      'projectName': instance.projectName,
+      'responsibleClientPhone': instance.responsibleClientPhone,
+      'responsibleClientEmail': instance.responsibleClientEmail,
+      'contactInfo': instance.contactInfo,
+      'phone': instance.phone,
+      'email': instance.email,
+    };

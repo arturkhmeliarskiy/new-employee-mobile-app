@@ -1,0 +1,23 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'messages_info_add_file_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_MessagesInfoAddFileDataModel _$$_MessagesInfoAddFileDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_MessagesInfoAddFileDataModel(
+      code: json['code'] as int,
+      added: (json['added'] as List<dynamic>).map((e) => e as int).toList(),
+      message: json['message'] as String,
+    );
+
+Map<String, dynamic> _$$_MessagesInfoAddFileDataModelToJson(
+        _$_MessagesInfoAddFileDataModel instance) =>
+    <String, dynamic>{
+      'code': instance.code,
+      'added': instance.added,
+      'message': instance.message,
+    };

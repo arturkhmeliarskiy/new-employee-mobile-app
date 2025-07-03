@@ -1,0 +1,35 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'contracts_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_ContractsDataModel _$$_ContractsDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_ContractsDataModel(
+      id: json['id'] as String,
+      validation: json['validation'] as String,
+      totalNumberHoursPerWeek: json['totalNumberHoursPerWeek'] as int,
+      startDate: json['startDate'] as String,
+      endDate: json['endDate'] as String,
+      isDeleted: json['isDeleted'] as bool,
+      sfRecordId: json['sfRecordId'] as String,
+      createdAt: json['createdAt'] as String,
+      employeeId: json['employeeId'] as String,
+    );
+
+Map<String, dynamic> _$$_ContractsDataModelToJson(
+        _$_ContractsDataModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'validation': instance.validation,
+      'totalNumberHoursPerWeek': instance.totalNumberHoursPerWeek,
+      'startDate': instance.startDate,
+      'endDate': instance.endDate,
+      'isDeleted': instance.isDeleted,
+      'sfRecordId': instance.sfRecordId,
+      'createdAt': instance.createdAt,
+      'employeeId': instance.employeeId,
+    };

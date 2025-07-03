@@ -1,0 +1,54 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'shifts_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+ShiftsModel _$ShiftsModelFromJson(Map<String, dynamic> json) => ShiftsModel(
+      json['id'] as String?,
+      json['companyName'] as String?,
+      json['title'] as String?,
+      json['description'] as String?,
+      json['startDate'] as String?,
+      json['endDate'] as String?,
+      json['isAllDay'] as bool?,
+      json['location'] as String?,
+      json['agencyId'] as String?,
+      json['status'] as String?,
+      json['beginningOfWork'] as String?,
+      json['street'] as String?,
+      json['mailingCity'] as String?,
+      json['postalCode'] as String?,
+      json['country'] as String?,
+      json['restStartTime'] as String?,
+      json['restEndTime'] as String?,
+      json['startTime'] as String?,
+      json['endTime'] as String?,
+      json['extraShiftInformationPdf'] as String?,
+    );
+
+Map<String, dynamic> _$ShiftsModelToJson(ShiftsModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'companyName': instance.companyName,
+      'title': instance.title,
+      'description': instance.description,
+      'startDate': instance.startDate,
+      'endDate': instance.endDate,
+      'isAllDay': instance.isAllDay,
+      'location': instance.location,
+      'agencyId': instance.agencyId,
+      'status': instance.status,
+      'beginningOfWork': instance.beginningOfWork,
+      'street': instance.street,
+      'mailingCity': instance.mailingCity,
+      'postalCode': instance.postalCode,
+      'country': instance.country,
+      'restStartTime': instance.restStartTime,
+      'restEndTime': instance.restEndTime,
+      'startTime': instance.startTime,
+      'endTime': instance.endTime,
+      'extraShiftInformationPdf': instance.extraShiftInformationPdf,
+    };

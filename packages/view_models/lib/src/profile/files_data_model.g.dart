@@ -1,0 +1,21 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'files_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_FilesDataModel _$$_FilesDataModelFromJson(Map<String, dynamic> json) =>
+    _$_FilesDataModel(
+      code: json['code'] as int,
+      files: (json['files'] as List<dynamic>)
+          .map((e) => FilesInfoDataModel.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
+Map<String, dynamic> _$$_FilesDataModelToJson(_$_FilesDataModel instance) =>
+    <String, dynamic>{
+      'code': instance.code,
+      'files': instance.files,
+    };

@@ -1,0 +1,25 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'notification_messages_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_NotificationMessagesDataModel _$$_NotificationMessagesDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_NotificationMessagesDataModel(
+      code: json['code'] as int,
+      message: json['message'] as String,
+      dataModel: (json['dataModel'] as List<dynamic>)
+          .map((e) => DataModel.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
+Map<String, dynamic> _$$_NotificationMessagesDataModelToJson(
+        _$_NotificationMessagesDataModel instance) =>
+    <String, dynamic>{
+      'code': instance.code,
+      'message': instance.message,
+      'dataModel': instance.dataModel,
+    };

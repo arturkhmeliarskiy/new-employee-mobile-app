@@ -1,0 +1,23 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'chat_groups_agency_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_ChatGroupsAgencyDataModel _$$_ChatGroupsAgencyDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_ChatGroupsAgencyDataModel(
+      code: json['code'] as int?,
+      chatGroups: (json['chatGroups'] as List<dynamic>?)
+          ?.map((e) => ChatGroupsDataModel.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
+Map<String, dynamic> _$$_ChatGroupsAgencyDataModelToJson(
+        _$_ChatGroupsAgencyDataModel instance) =>
+    <String, dynamic>{
+      'code': instance.code,
+      'chatGroups': instance.chatGroups,
+    };

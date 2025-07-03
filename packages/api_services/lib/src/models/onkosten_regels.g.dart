@@ -1,0 +1,75 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'onkosten_regels.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+OnkostenRegels _$OnkostenRegelsFromJson(Map<String, dynamic> json) =>
+    OnkostenRegels(
+      json['id'] as String?,
+      json['name'] as String?,
+      json['date'] as String?,
+      json['numberOfUnits'] as int?,
+      json['price'] as String?,
+      json['pricePerPaymentFrequency'] as String?,
+      json['explanation'] as String?,
+      json['recordTypeSFName'] as String?,
+      json['sfOrgId'] as String?,
+      json['isUpsertApp'] as bool?,
+      json['isGetLEorg'] as bool?,
+      json['isDeleted'] as bool?,
+      json['sfLEId'] as String?,
+      json['amountCostPerUnit'] as String?,
+      json['sfRecordId'] as String?,
+      json['bTW'] as String?,
+      json['isDividedPerDays'] as bool?,
+      json['maximaalBedrag'] as String?,
+      json['uitbetalingsfrequentie'] as String?,
+      json['uitbetalingsfrequentieFilter'] as String?,
+      json['sfWithdrawalRemainder'] as String?,
+      json['departureAddress'] as String?,
+      json['destinationAddress'] as String?,
+      json['returnRoute'] as bool?,
+      json['createdAt'] as String?,
+      json['cpcExpenseTypeConfigId'] as String?,
+      json['invoiceId'] as String?,
+      json['projectId'] as String?,
+      json['timesheetId'] as String?,
+      json['timesheetExpenseTypeId'] as String?,
+    );
+
+Map<String, dynamic> _$OnkostenRegelsToJson(OnkostenRegels instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+      'date': instance.date,
+      'numberOfUnits': instance.numberOfUnits,
+      'price': instance.price,
+      'pricePerPaymentFrequency': instance.pricePerPaymentFrequency,
+      'explanation': instance.explanation,
+      'recordTypeSFName': instance.recordTypeSFName,
+      'sfOrgId': instance.sfOrgId,
+      'isUpsertApp': instance.isUpsertApp,
+      'isGetLEorg': instance.isGetLEorg,
+      'isDeleted': instance.isDeleted,
+      'sfLEId': instance.sfLEId,
+      'amountCostPerUnit': instance.amountCostPerUnit,
+      'sfRecordId': instance.sfRecordId,
+      'bTW': instance.bTW,
+      'isDividedPerDays': instance.isDividedPerDays,
+      'maximaalBedrag': instance.maximaalBedrag,
+      'uitbetalingsfrequentie': instance.uitbetalingsfrequentie,
+      'uitbetalingsfrequentieFilter': instance.uitbetalingsfrequentieFilter,
+      'sfWithdrawalRemainder': instance.sfWithdrawalRemainder,
+      'departureAddress': instance.departureAddress,
+      'destinationAddress': instance.destinationAddress,
+      'returnRoute': instance.returnRoute,
+      'createdAt': instance.createdAt,
+      'cpcExpenseTypeConfigId': instance.cpcExpenseTypeConfigId,
+      'invoiceId': instance.invoiceId,
+      'projectId': instance.projectId,
+      'timesheetId': instance.timesheetId,
+      'timesheetExpenseTypeId': instance.timesheetExpenseTypeId,
+    };

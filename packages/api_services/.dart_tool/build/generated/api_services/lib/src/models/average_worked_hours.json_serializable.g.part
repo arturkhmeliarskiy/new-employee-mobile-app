@@ -1,0 +1,13 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+AverageWorkedHours _$AverageWorkedHoursFromJson(Map<String, dynamic> json) =>
+    AverageWorkedHours(
+      (json['weekly'] as num?)?.toDouble(),
+    );
+
+Map<String, dynamic> _$AverageWorkedHoursToJson(AverageWorkedHours instance) =>
+    <String, dynamic>{
+      'weekly': instance.weekly,
+    };

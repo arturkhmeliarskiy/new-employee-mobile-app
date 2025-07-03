@@ -1,0 +1,41 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'pop.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Pop _$PopFromJson(Map<String, dynamic> json) => Pop(
+      id: json['id'] as String?,
+      endDate: json['endDate'] as String?,
+      hourRate: json['hourRate'] as String?,
+      externalTariff: json['externalTariff'] as String?,
+      startDate: json['startDate'] as String?,
+      isUpsertApp: json['isUpsertApp'] as bool?,
+      sfOrgId: json['sfOrgId'] as String?,
+      sfLEId: json['sfLEId'] as String?,
+      name: json['name'] as String?,
+      isGetLEorg: json['isGetLEorg'] as bool?,
+      isDeleted: json['isDeleted'] as bool?,
+      sfRecordId: json['sfRecordId'] as String?,
+      createdAt: json['createdAt'] as String?,
+      placementId: json['placementId'] as String?,
+    );
+
+Map<String, dynamic> _$PopToJson(Pop instance) => <String, dynamic>{
+      'id': instance.id,
+      'endDate': instance.endDate,
+      'hourRate': instance.hourRate,
+      'externalTariff': instance.externalTariff,
+      'startDate': instance.startDate,
+      'isUpsertApp': instance.isUpsertApp,
+      'sfOrgId': instance.sfOrgId,
+      'sfLEId': instance.sfLEId,
+      'name': instance.name,
+      'isGetLEorg': instance.isGetLEorg,
+      'isDeleted': instance.isDeleted,
+      'sfRecordId': instance.sfRecordId,
+      'createdAt': instance.createdAt,
+      'placementId': instance.placementId,
+    };

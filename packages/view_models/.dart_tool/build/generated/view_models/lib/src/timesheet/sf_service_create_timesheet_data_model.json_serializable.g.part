@@ -1,0 +1,20 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_SfServiceCreateTimesheetDataModel
+    _$$_SfServiceCreateTimesheetDataModelFromJson(Map<String, dynamic> json) =>
+        _$_SfServiceCreateTimesheetDataModel(
+          code: json['code'] as int,
+          result: TimesheetExistDataModel.fromJson(
+              json['result'] as Map<String, dynamic>),
+          message: json['message'] as String,
+        );
+
+Map<String, dynamic> _$$_SfServiceCreateTimesheetDataModelToJson(
+        _$_SfServiceCreateTimesheetDataModel instance) =>
+    <String, dynamic>{
+      'code': instance.code,
+      'result': instance.result,
+      'message': instance.message,
+    };

@@ -1,0 +1,15 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_AverageWorkedHoursDataModel _$$_AverageWorkedHoursDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_AverageWorkedHoursDataModel(
+      weekly: (json['weekly'] as num).toDouble(),
+    );
+
+Map<String, dynamic> _$$_AverageWorkedHoursDataModelToJson(
+        _$_AverageWorkedHoursDataModel instance) =>
+    <String, dynamic>{
+      'weekly': instance.weekly,
+    };

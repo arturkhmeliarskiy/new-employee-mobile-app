@@ -1,0 +1,361 @@
+{
+  "language": "Language",
+  "login_screen": {
+    "password_textfield_hint": "Password",
+    "forgot_password_button": "Forgot password?",
+    "missing_credentails": "Missing credentails",
+    "username_textfield_hint": "Username",
+    "bottom_button": "Login"
+  },
+  "pin_code_screen": {
+    "fail_pin_code": "Invalid PIN code",
+    "forgot_pin": "Forgot pin?",
+    "pin_code_disabled": "PIN code disabled"
+  },
+  "home_screen": {
+    "title_exit_app": "Exit App",
+    "question_log_out_of_the_app": "Do you want to exit an App?",
+    "exit_app_dialog_ok": "Ok",
+    "hello": "Hello",
+    "block_header1": "Overview",
+    "hours_worked": "Hours worked",
+    "accrued_holiday_pay": "Accrued holiday pay",
+    "accrued_holiday_hours": "Accrued holiday hours",
+    "my_agencies": "My agencies",
+    "total": "total",
+    "month": "month",
+    "looking_for_a_job": "Looking for a job?",
+    "button_yes": "Yes",
+    "button_show_more": "Show more"
+  },
+  "week": "week",
+  "news": "News",
+  "no_news": "No news",
+  "default": "default",
+  "no_documents_available": "No documents available",
+  "agency_related_info_screen": {
+    "days_until_payout": "Days until payout",
+    "average_worked_hours": "Average worked hours",
+    "my_employers": "My employers",
+    "no_employers": "No employers",
+    "no_documents": "No documents",
+    "not_specified": "Not specified"
+  },
+  "agency_contact_modal_window": {
+    "chat": "Chat",
+    "or": "or"
+  },
+  "chat_screen": {
+    "error_message_was_not_sent": "Error. Message was not sent"
+  },
+  "info_modal_window": {
+    "your_contact": "Your contact",
+    "custom_text_field": "Available from 6-8 daily"
+  },
+  "hours": "Hours",
+  "costs": "Costs",
+  "submitted_timesheet_screen": {
+    "function": "Function",
+    "week_nr": "Week nr.",
+    "start_date": "Start date",
+    "end_date": "End date",
+    "question_confirm": "Confirm the comment?",
+    "confirm": "Confirm",
+    "question_decline": "Why do you want to decline this timesheet?",
+    "reason_for_refusal": "Please indicate the reason for rejection",
+    "decline": "Decline",
+    "no_timesheets": "No timesheets"
+  },
+  "regestration_hours_selection": {
+    "standart_hours": "Standart hours",
+    "from_to_hours": "From to hours"
+  },
+  "registration_timesheets_screen": {
+    "via": "via",
+    "select_week": "Select week",
+    "hour_type_not_selected": "Hour type not selected",
+    "add_registration": "Add registration ",
+    "approve": "Approve",
+    "total_hours": "Total hours",
+    "total_costs": "Total costs",
+    "reject": "Reject",
+    "send": "Send",
+    "project_not_selected": "Project not selected",
+    "message_info1": "Sum of the all hours for one day, must be less than or equal to ",
+    "message_info2": "Sum of the all hours for week, must be less than or equal to ",
+    "message_info3": "The hours cannot be registered. Contact the agency",
+    "message_info4": "Value can not be greater than",
+    "message_info5": "Value can not be less than",
+    "message_info6": "Total cost can not be greater than",
+    "message_info7": "Total cost can not be less than",
+    "message_info8": "Total number of units can not be greater than",
+    "message_info9": "Total number of units can not be less than",
+    "message_info10_1": "Allowed no more than",
+    "message_info10_2": "expenses per week",
+    "posting_period": "The time sheet can only be created during the period",
+    "tariff_is_not_valid": "tariff is not valid during this period of time",
+    "message_info11": "The number of hours at this rate per day must be less than or equal to",
+    "successfully_saved": "Timesheet successfully saved",
+    "error_saved": "Timesheet saving error",
+    "project_required": "Project required",
+    "message_required_hours": "You have not completed all required hours",
+    "empty_hours": "fill in the fields for the number of hours",
+    "key2ValuesMap_VDw": "Legal Holidays",
+    "key2ValuesMap_VDb": "Above Legal Holidays",
+    "key2ValuesMap_VDt": "Total Holidays",
+    "key2ValuesMap_FD": "Holidays",
+    "key2ValuesMap_KV": "Short_absence",
+    "key2ValuesMap_ADV": "Shorter working hours",
+    "key2ValuesMap_TvT": "Compensation_hours",
+    "key2ValuesMap_VG": "Holiday allowance",
+    "key2ValuesMap_WDC": "WDC",
+    "message_info12": "WML does not filled on next dates",
+    "message_info13": "Hour Rate does not filled on next dates",
+    "message_info14": "Hour Rate less allowed wml on next dates",
+    "message_info15": "Solve this problems you will able to approve this timesheet",
+    "message_info16": "For current employee does not filled date of birthday. WML can not be calculated",
+    "message_info17": "You can’t fill in hours for this week. Please contact",
+    "message_info18": "Choose tariff",
+    "message_info19": "Choose a tariff and add the desired number of hours",
+    "message_info20": "Cost rate not selected",
+    "message_info21": "Start time cannot be greater than end time",
+    "message_info22": "This time is already in use",
+    "message_info23": "The workday is from {1} to {2}. The rest time need to be between this hours.",
+    "is_not_select_type_reserv": "Reservation type not selected"
+  },
+  "card_timesheet_reservation": {
+    "reservation": "Reservation",
+    "available": "Available",
+    "available_balance": "Available balance"
+  },
+  "monday": "Monday",
+  "tuesday": "Tuesday",
+  "wednesday": "Wednesday",
+  "thursday": "Thursday",
+  "friday": "Friday",
+  "saturday": "Saturday",
+  "sunday": "Sunday",
+  "sheet_modal_window": {
+    "view_add_sheets": "View/Add sheets",
+    "select_employer": "Select employer"
+  },
+  "types_registration": {
+    "new_registration": "New registration",
+    "ritten": "Ritten",
+    "expenses": "Expenses",
+    "reservations": "Reservations"
+  },
+  "show_contact_information": "Show contact information",
+  "payslips_screen": {
+    "message_null_payslips": "No annual reports available yet",
+    "period": "Period",
+    "item_drop_down_pay_slips": "Pay slips",
+    "item_drop_down_annual_statements": "Annual statements"
+  },
+  "profile_screen": {
+    "notifications": "Notifications",
+    "name_page": "Profile",
+    "hours_approved": "Hours approved",
+    "message_empty_list": "No messages",
+    "notification_dialog_cancel": "Cancel",
+    "notification_dialog_ok": "Ok",
+    "new_chat_messages": "New chat messages"
+  },
+  "language_modal_window": {
+    "lang_name1": "English",
+    "lang_name6": "Romanian",
+    "lang_name5": "Portuguese",
+    "lang_name4": "Dutch",
+    "lang_name3": "Polish",
+    "lang_name2": "German",
+    "message_successfully_saved": "Successfully saved"
+  },
+  "back_button_name": "Back",
+  "settings_modal_window": {
+    "name_page": "Settings",
+    "profile": "Profile",
+    "basic_information": "Basic information",
+    "work_preferences": "Work preferences",
+    "security": "Security",
+    "my_documents": "My documents",
+    "agency_documents": "Agency documents",
+    "preferences": "Preferences",
+    "logout": "Logout",
+    "ask_for_confirmation": "Do you want to logout?",
+    "title_agency_documents": "Shared documents with you"
+  },
+  "documents": "Documents",
+  "language_name": "English",
+  "basic_information_modal_window": {
+    "message_successfully_saved": "Successfully saved",
+    "basic_information": "Basic information",
+    "change_picture": "Change picture",
+    "telephone_number": "Telephone number",
+    "profile": {
+      "profile_title": "Profile",
+      "hint_nick_name": "Nick name",
+      "hint_date_of_birth": "Date of birth",
+      "hint_nationality": "Nationality",
+      "hint_first_name": "First name",
+      "hint_last_name": "Last name"
+    }
+  },
+  "contact": "Contact",
+  "button_cancel": "Cancel",
+  "button_save": "Save",
+  "work_preferences_modal_window": {
+    "message_successfully_saved": "Successfully saved",
+    "name_page": "Work pereferences",
+    "hint_desired_salary": "Desired salary",
+    "hint_desired_function": "Desired function",
+    "hint_max_travel_time_minutes": "Max travel time minutes"
+  },
+  "security_modal_window": {
+    "change_pin_code": "Change pin code",
+    "change_password": "Change password"
+  },
+  "pin_code_modal_window": {
+    "name_page": "Pin code",
+    "create_pincode": "Create pincode",
+    "switch_pin_code": "Switch Pin code",
+    "registration_pin_code_screen": {
+      "title": "Want to login with pin?",
+      "skip": "Skip"
+    }
+  },
+  "password_modal_window": {
+    "message_successfully_saved": "Successfully saved",
+    "hint_old_password": "Old password",
+    "hint_new_password": "New password",
+    "hint_confirm_password": "Confirm password"
+  },
+  "upload_file": "Upload file",
+  "my_documents_modal_window": {
+    "message_successfully_saved": "Successfully saved",
+    "my_cv": "My CV",
+    "no_my_cv": "No resume uploaded",
+    "my_personal_documents": "My personal documents",
+    "no_my_personal_documents": "No personal documents",
+    "sharing_with_the_agency": "Sharing with the agency",
+    "add_document": "Add document ",
+    "title_validity": "Validity",
+    "title_document_type": "Document type",
+    "hint_input_date": "Select an expiration date",
+    "hint_type_document": "Select document type",
+    "message_type_not_selected": "Document type not selected"
+  },
+  "bottom_nav_bar_item": {
+    "home": "Home",
+    "pay_slips": "Pay Slips",
+    "calendar": "Calendar",
+    "profile": "Profile"
+  },
+  "reset_password_screen": {
+    "name_page": "Reset password",
+    "user_instruction_message": "Enter the username or email associated with your account and we'll send an email with instructions to reset your password.",
+    "email_textfield_hint": "Username or email",
+    "button_send": "Send recovery instructions",
+    "check_your_mail": "Check your mail",
+    "user_instruction_message2": "We have sent a password recovery instruction to your email.",
+    "button_open_mail_app": "Open mail app",
+    "return_to_login": "Return to login",
+    "bottom_text": "Did not receive an email? Check your spam folder or ",
+    "show_no_mail_apps_dialog": {
+      "title": "Open Mail App",
+      "content": "No mail apps installed",
+      "ok": "Ok"
+    },
+    "username": "Username",
+    "password": "Password",
+    "repeat_password": "Repeat password",
+    "save_new_password": "Save new password",
+    "input_error_message_mail": "Please enter your username or email address",
+    "another_mail_adress": "try another mail adress"
+  },
+  "initial_screen": {
+    "login": "Login",
+    "create_account": "Create account",
+    "skip": "Skip"
+  },
+  "registration_screen": {
+    "email_adress": "Email address",
+    "next_step": "Next Step",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "phone_number": "Phone number",
+    "username": "Username",
+    "password": "Password",
+    "repeat_password": "Repeat password",
+    "create_account": "Create account",
+    "fields_are_not_filled": "Please fill in all fields",
+    "passwords_do_not_match": "Passwords do not match"
+  },
+  "tigris_file_preview": {
+    "folder_not_selected": "Folder not selected",
+    "the_file_is_saved_in": "The file is saved in",
+    "file_retrieval_error": "File retrieval error"
+  },
+  "job_application_form": {
+    "title_enter_name": "Please enter your name",
+    "previous_step": "Previous step",
+    "select_a_file": "Select a file",
+    "title_request_success": "Your request has been successfully saved and will be processed by us as soon as possible",
+    "title_enter_phone": "Please enter your phone number and email",
+    "title_enter_profession": "Please enter the desired profession",
+    "title_ask_for_download": "Would you like to upload your CV?",
+    "yes_upload": "Yes, upload...",
+    "file_not_selected": "File not selected",
+    "search_in": "Search in",
+    "button_upload_cv": "Yes, upload CV",
+    "description_ask_for_download": "We will arrange it for you!",
+    "welcom": "Welcom",
+    "description_create_account": "With this information, we will get to work for you. Do they knock?",
+    "next_step": "Yes, the next step!",
+    "failed_upload_resume": "Unable to process resume",
+    "message_user_exists": "This email address is already in use. Please sign in or go back and change your email",
+    "description_email_confirmation": "An email with a confirmation code has been sent to the specified email address. Copy the code and enter in the field below",
+    "email_confirmation": "Need to verify user email!",
+    "title_input_confirmation_code": "Enter confirmation code",
+    "button_title_confirm_email_address": "Confirm email address",
+    "title_profession_page": "What are you looking for?",
+    "description_profession_page": "What features do you prefer?",
+    "failed_parsed_resume": "Your resume was parsed but no data was found in it. Try another resume",
+    "name_list_functions": "Selected functions",
+    "no_profession_selected": "No functions selected.Please add a functions ",
+    "max_number_of_professions": " It is not possible to enter more than 5 professions",
+    "button_i_chose_features": "I chose features",
+    "title_finish_page": "Doing well!",
+    "description_finish_page": "We will get to work for you!"
+  },
+  "close": "Close",
+  "calendar_screen": {
+    "planned_shifts": "Planned shifts",
+    "today": "Today ",
+    "planned": "Planned",
+    "available": "Available",
+    "description": "Description",
+    "location": "Location",
+    "ask_acceptance": "Service acceptance?",
+    "error": "Failed to process request",
+    "weekdays": {
+      "monday": "M",
+      "tuesday": "T",
+      "wednesday": "W",
+      "thursday": "T",
+      "friday": "F",
+      "saturday": "S",
+      "sunday": "S"
+    }
+  },
+  "loading_text": "  loading.",
+  "no_internet_connection": "No internet connection",
+  "edit_document": {
+    "share_with": "Shared with:",
+    "yes": "Yes",
+    "no": "No",
+    "not_share": "Not possible to share with this agency"
+  },
+  "button_download": "Download",
+  "error_message_application": "An error has occurred. Contact your agency or contact support",
+  "no_file_selected": "File not selected"
+}

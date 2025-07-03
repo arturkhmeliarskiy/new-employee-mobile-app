@@ -1,0 +1,80 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_UitzendingDataModel _$$_UitzendingDataModelFromJson(
+        Map<String, dynamic> json) =>
+    _$_UitzendingDataModel(
+      id: json['id'] as String,
+      startDate: json['startDate'] as String,
+      endDate: json['endDate'] as String,
+      hoursPerWeek: (json['hoursPerWeek'] as num).toDouble(),
+      defaultProject: json['defaultProject'] as String,
+      disableEditingTimesheets: json['disableEditingTimesheets'] as String,
+      employeeIDAlldisableTimesheetsEdition:
+          json['employeeIDAlldisableTimesheetsEdition'] as bool,
+      employeeId: json['employeeId'] as String,
+      sfOrgId: json['sfOrgId'] as String,
+      contracttype: json['contracttype'] as String,
+      employeeIDAllfirstName: json['employeeIDAllfirstName'] as String,
+      employeeIDAlllastName: json['employeeIDAlllastName'] as String,
+      employeeIDAllsfRecordId: json['employeeIDAllsfRecordId'] as String,
+      employeeIDAllsfLEId: json['employeeIDAllsfLEId'] as String,
+      employeeIDAllagencyId: json['employeeIDAllagencyId'] as String,
+      employeeIDAlldienstverbandStatus:
+          json['employeeIDAlldienstverbandStatus'] as String,
+      employeeIDAllfase: json['employeeIDAllfase'] as String,
+      employeeIDAllbirthdate: json['employeeIDAllbirthdate'] as String,
+      employeeIDAllblockedReservations:
+          json['employeeIDAllblockedReservations'] as String,
+      employeeIDAllmailingCountry:
+          json['employeeIDAllmailingCountry'] as String,
+      employeeIDAllmailingcity: json['employeeIDAllmailingcity'] as String,
+      employeeIDAllmailingStreet: json['employeeIDAllmailingStreet'] as String,
+      dienstverbandStatus: json['dienstverbandStatus'] as String,
+      costPrizeCalculationIdAlContractType:
+          json['costPrizeCalculationIdAlContractType'] as String,
+      costPrizeCalculationIdAlPlacementClause:
+          json['costPrizeCalculationIdAlPlacementClause'] as bool,
+      typeHourRegistrationVia: json['typeHourRegistrationVia'] as String,
+      tariffPackIdAlUsedUnravelingTypes:
+          json['tariffPackIdAlUsedUnravelingTypes'] as List<dynamic>,
+    );
+
+Map<String, dynamic> _$$_UitzendingDataModelToJson(
+        _$_UitzendingDataModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'startDate': instance.startDate,
+      'endDate': instance.endDate,
+      'hoursPerWeek': instance.hoursPerWeek,
+      'defaultProject': instance.defaultProject,
+      'disableEditingTimesheets': instance.disableEditingTimesheets,
+      'employeeIDAlldisableTimesheetsEdition':
+          instance.employeeIDAlldisableTimesheetsEdition,
+      'employeeId': instance.employeeId,
+      'sfOrgId': instance.sfOrgId,
+      'contracttype': instance.contracttype,
+      'employeeIDAllfirstName': instance.employeeIDAllfirstName,
+      'employeeIDAlllastName': instance.employeeIDAlllastName,
+      'employeeIDAllsfRecordId': instance.employeeIDAllsfRecordId,
+      'employeeIDAllsfLEId': instance.employeeIDAllsfLEId,
+      'employeeIDAllagencyId': instance.employeeIDAllagencyId,
+      'employeeIDAlldienstverbandStatus':
+          instance.employeeIDAlldienstverbandStatus,
+      'employeeIDAllfase': instance.employeeIDAllfase,
+      'employeeIDAllbirthdate': instance.employeeIDAllbirthdate,
+      'employeeIDAllblockedReservations':
+          instance.employeeIDAllblockedReservations,
+      'employeeIDAllmailingCountry': instance.employeeIDAllmailingCountry,
+      'employeeIDAllmailingcity': instance.employeeIDAllmailingcity,
+      'employeeIDAllmailingStreet': instance.employeeIDAllmailingStreet,
+      'dienstverbandStatus': instance.dienstverbandStatus,
+      'costPrizeCalculationIdAlContractType':
+          instance.costPrizeCalculationIdAlContractType,
+      'costPrizeCalculationIdAlPlacementClause':
+          instance.costPrizeCalculationIdAlPlacementClause,
+      'typeHourRegistrationVia': instance.typeHourRegistrationVia,
+      'tariffPackIdAlUsedUnravelingTypes':
+          instance.tariffPackIdAlUsedUnravelingTypes,
+    };

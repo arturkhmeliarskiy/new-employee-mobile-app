@@ -1,0 +1,40 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'timesheets.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Timesheets _$TimesheetsFromJson(Map<String, dynamic> json) => Timesheets(
+      json['id'] as String?,
+      json['employeeId'] as String?,
+      json['weekNumber'] as int?,
+      json['startDate'] as String?,
+      json['endDate'] as String?,
+      json['status'] as String?,
+      json['hours'] as String?,
+      json['functionName'] as String?,
+      json['companyName'] as String?,
+      json['placementId'] as String?,
+      (json['expensesCost'] as num?)?.toDouble(),
+      (json['approvalRequests'] as List<dynamic>?)
+          ?.map((e) => ApprovalRequests.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
+Map<String, dynamic> _$TimesheetsToJson(Timesheets instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'employeeId': instance.employeeId,
+      'weekNumber': instance.weekNumber,
+      'startDate': instance.startDate,
+      'endDate': instance.endDate,
+      'status': instance.status,
+      'hours': instance.hours,
+      'functionName': instance.functionName,
+      'companyName': instance.companyName,
+      'placementId': instance.placementId,
+      'expensesCost': instance.expensesCost,
+      'approvalRequests': instance.approvalRequests,
+    };
